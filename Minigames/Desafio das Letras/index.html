@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="../../assets/logo.svg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" />
+  <title>Ecomatch | Desafio das letras</title>
+</head>
+
+<body>
+
+    <div class="modal-alert">
+        <p class="modal-alert-texto"></p>
+    </div>
+
+  <header>
+    
+  <div class="botoes-inicio">
+    <button>
+      <img
+        id="home"
+        src="../../assets/BotaoHome.svg"
+        alt="Voltar tela inicial"
+        data-bs-toggle="tooltip"
+        data-bs-placement="bottom"
+        data-bs-title="Voltar para a tela inicial"
+        draggable="false"
+      />
+    </button>
+
+    <button id="toggleMusicButton">
+      <img
+        id="musicIcon"
+        src="../../assets/icones/som-off.svg"
+        alt="Desativar Som"
+        data-bs-toggle="tooltip"
+        data-bs-placement="bottom"
+        data-bs-title="Desativar Som"
+        draggable="false"
+      />
+    </button>
+  </div>
+  <div id="areaModal">
+    <p>Tem certeza que deseja voltar para a página inicial?</p>
+    <div class="botoes">
+      <button id="confirmYes" class="btn-confirm">Sim</button>
+      <button id="confirmNo" class="btn-confirm">Não</button>
+    </div>
+  </div>
+
+  <div class="overlay"></div>
+
+
+  </header>
+  <main>
+    <section>
+      <div class="question">
+        <span id="contador-questao"></span>
+        <h1> </h1>
+       
+      </div>
+      <div class="animal-img">
+        <img src="" alt="Animal" />
+      </div>
+      <div class="caixa-resposta">
+        <span class="letras" ondrop="drop(event)" ondragover="allowDrop(event)"></span>
+        <span class="letras" ondrop="drop(event)" ondragover="allowDrop(event)"></span>
+        <span class="letras" ondrop="drop(event)" ondragover="allowDrop(event)"></span>
+        <span class="letras" ondrop="drop(event)" ondragover="allowDrop(event)"></span>
+        <span class="letras" ondrop="drop(event)" ondragover="allowDrop(event)"></span>
+        <span class="letras" ondrop="drop(event)" ondragover="allowDrop(event)"></span>
+        <span class="letras" ondrop="drop(event)" ondragover="allowDrop(event)"></span>
+        <span class="letras" ondrop="drop(event)" ondragover="allowDrop(event)"></span>
+      </div>
+      <div class="letras-aleatorias">
+        <div>
+          <span draggable="true" ondragstart="drag(event)"></span>
+          <span draggable="true" ondragstart="drag(event)"></span>
+          <span draggable="true" ondragstart="drag(event)"></span>
+          <span draggable="true" ondragstart="drag(event)"></span>
+          <span draggable="true" ondragstart="drag(event)"></span>
+          <span draggable="true" ondragstart="drag(event)"></span>
+          <span draggable="true" ondragstart="drag(event)"></span>
+        </div>
+        <div>
+          <span draggable="true" ondragstart="drag(event)"></span>
+          <span draggable="true" ondragstart="drag(event)"></span>
+          <span draggable="true" ondragstart="drag(event)"></span>
+          <span draggable="true" ondragstart="drag(event)"></span>
+          <span draggable="true" ondragstart="drag(event)"></span>
+          <span draggable="true" ondragstart="drag(event)"></span>
+          <span draggable="true" ondragstart="drag(event)"></span>
+        </div>
+      </div>
+    </section>
+  </main>
+  <audio src="../../audios/correct.mp3" id="matchSound1"></audio>
+  <audio src="../../audios/errado.wav" id="matchSound2"></audio>
+  <script src="app.js"></script>
+  
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+</body>
+
+</html>

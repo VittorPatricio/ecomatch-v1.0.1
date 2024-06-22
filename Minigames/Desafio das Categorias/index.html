@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Desafio das Categorias</title>
+  <link rel="shortcut icon" href="../../assets/logo.svg" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsividade.css">
+</head>
+
+<body>
+  <div class="modal-alerta">
+    <p class="modal-alerta-texto"></p>
+  </div>
+  <div class="botoes-inicio">
+    <button>
+      <img id="home" src="../../assets/BotaoHome.svg" alt="Voltar tela inicial" data-bs-toggle="tooltip"
+        data-bs-placement="bottom" data-bs-title="Voltar para a tela inicial" draggable="false" />
+    </button>
+
+    <button id="toggleMusicButton">
+      <img id="musicIcon" src="../../assets/icones/som-off.svg" alt="Desativar Som" data-bs-toggle="tooltip"
+        data-bs-placement="bottom" data-bs-title="Desativar Som" draggable="false" />
+    </button>
+  </div>
+  <div id="areaModal">
+    <p>TEM CERTEZA QUE DESEJA VOLTAR A PÁGINA INICIAL?</p>
+    <div class="botoes">
+      <button id="confirmYes" class="btn btn-confirm">Sim</button>
+      <button id="confirmNo" class="btn btn-confirm">Não</button>
+    </div>
+  </div>
+
+  <div class="overlay"></div>
+
+
+  <div id="myModal" class="modal">
+    <div class="estrelasFim">
+      <img id="estrela1" src="./assets/estrela 1.svg" alt="">
+      <img id="estrela2" src="./assets/estrela 2.svg" alt="">
+      <img id="estrela3" src="./assets/estrela 3.svg" alt="">
+    </div>
+    <p id="modalText">PARABÉNS!</p>
+    <div class="dados">
+      <div class="dado1">
+        <div class="tempo">
+          <div class="imgTempo">
+            <img class="identificador" src="./assets/Vector-2.svg" alt="">
+          </div>
+          <div class="areaResult"> <span class="temporizador">00:00</span> </div>
+          <p class="description">MÉDIA TEMPO JOGO DA MEMÓRIA</p>
+        </div>
+        <div class="perguntas">
+          <div class="imgResult">
+            <img class="identificador" src="./assets/Vector.svg" alt="">
+          </div>
+          <div class="areaResult"><span class="acertos"></span></div>
+          <p class="description">TOTAL ACERTOS QUIZ</p>
+        </div>
+      </div>
+      <div class="dado2">
+        <div class="palavra">
+          <div class="imgPalavra">
+            <img class="identificador" src="./assets/A.svg" alt="">
+          </div>
+          <div class="areaResult"><span class="palavras"></span></div>
+          <p class="description">PALAVRAS FORMADAS CORRETAMENTE</p>
+        </div>
+        <div class="categorias">
+          <div class="imgCategorias">
+            <img class="identificador" src="./assets/Vector-1.svg" alt="">
+          </div>
+          <div class="areaResult"><span class="acertosCategoria"></span></div>
+          <p class="description">ACERTOS CATEGORIA</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="areaSugestion">
+      <div class="envoriment">
+        <div class="areaStars">
+          <p class="sugestionText">COMO VOCÊ AVALIA O ECOMATCH?</p>
+          <div class="estrelas">
+          </div>
+        </div>
+        <div class="areaSugestionText">
+          <p class="sugestionText">GOSTARIA DE DEIXAR UMA SUGESTÃO?</p>
+          <input type="text" placeholder="Digite sua sugestão" id="sugestaoInput" />
+        </div>
+      </div>
+      <button id="enviarSugestao">ENVIAR SUGESTÃO</button>
+    </div>
+
+    <div class="areaBotoes">
+      <button class="buttonCuriosidade" onclick="curiosidades()"><img id="curiosidadeIcon"
+          src="../../assets/curiosidade.svg" alt="tela curiosidades"></button>
+      <button class="buttonGo" onclick="goTo()"> <img id="homeIcon" src="../../assets/BotaoHome.svg"
+          alt="voltar ao inicio" /></button>
+    </div>
+  </div>
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="question">
+      <span id="progress">1/2</span>
+      <h1>
+        COMO VOCÊ CLASSIFICARIA ESSES ANIMAIS?
+      </h1>
+    </div>
+    <div class="content">
+      <div class="options"></div>
+      <div class="categories"></div>
+    </div>
+  </div>
+  <audio id="matchSound" src="../../audios/correct.mp3"></audio>
+  <audio id="matchSound2" src="../../audios/errado.wav"></audio>
+  <script src="script.js"></script>
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+</body>
+
+</html>

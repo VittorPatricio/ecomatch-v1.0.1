@@ -1,0 +1,670 @@
+:root {
+  /* Responsividade 1420 */
+  --areaModalBotoesWidth1420: 5rem;
+  --areaModalBotoesHeight1420: 2.5rem;
+  --areaModalBotoesFont1420: 1.5rem;
+  --areaModalPFont-Size1420: 0.8rem;
+  --areaModalWidth1420: 23.4rem;
+  --areaModalHeight1420: 8rem;
+  --areaModalLeft1420: 11rem;
+  --questionTop1420: 20rem;
+  --botoesInicioWidth1420: 8rem;
+  --botoesInicioTop1420: 0.75rem;
+  --containerZIndex1420: 1;
+  --containerBorderRadius1420: 10px;
+  --containerWidth1420: 50%;
+  --containerHeight1420: 100vh;
+  --questionGap1420: 50px;
+  --questionPosition1420: relative;
+  --questionTop1420: 0.5rem;
+  --questionPadding1420: 0.25rem;
+  --questionBorderRadius1420: 20px;
+  --questionBorder1420: 3px solid #1a6b17;
+  --questionWidth1420: 100%;
+  --questionH1Font1420: 0.75rem;
+  --questionSpanPadding1420: 26px;
+  --questionSpanBorderRadius1420: 50%;
+  --questionSpanFont1420: 0.75rem;
+  --questionSpanFontWeight1420: 800;
+  --questionSpanLeft1420: 20px;
+  --cardWidth1420: 4.9rem;
+  --cardHeight1420: 4.36rem;
+  --cardBorderRadius1420: 0.5rem;
+  --cardPadding1420: 0.5rem;
+  --cardPWidth1420: 4rem;
+  --cardPFont1420: 12px;
+  --cardPPadding1420: 2px;
+  --optionsHeight1420: 16rem;
+  --categoryWidth1420: 5rem;
+  --categoryHeight1420: 4.5rem;
+  --categoryBorderRadius1420: 0.6rem;
+  --categoryPFont1420: 14px;
+  --tipoTexFont1420: 30px;
+
+  /* resolução 1030 */
+  --questionH1Font1030: 0.6rem;
+  --questionSpanPadding1030: 10px;
+  --questionSpanBorderRadius1030: 50%;
+  --questionSpanFont1030: 0.6rem;
+  --questionSpanFontWeight1030: 800;
+  --questionSpanLeft1030: 20px;
+
+  /* resolução 890 */
+  --areaModalBotoesWidth890: 5rem;
+  --areaModalBotoesHeight890: 2.5rem;
+  --areaModalBotoesFont890: 1.5rem;
+  --areaModalPFont-Size890: 0.65rem;
+  --areaModalWidth890: 20rem;
+  --areaModalHeight890: 8rem;
+  --areaModalLeft890: 4rem;
+  --questionTop890: 36rem;
+  --botoesInicioWidth890: 6rem;
+  --botoesInicioTop890: 0.75rem;
+  --containerZIndex890: 1;
+  --containerBorderRadius890: 10px;
+  --containerWidth890: 50%;
+  --containerHeight890: 100vh;
+  --questionGap890: 50px;
+  --questionPosition890: relative;
+  --questionTop890: 0.5rem;
+  --questionPadding890: 0.25rem;
+  --questionBorderRadius890: 20px;
+  --questionBorder890: 3px solid #1a6b17;
+  --questionWidth890: 17.5rem;
+  --questionRight890: 1.4rem;
+  --questionH1Font890: 0.6rem;
+  --questionH1FontLeft890: 15px;
+  --questionSpanPadding890: 6px;
+  --questionSpanBorderRadius890: 50%;
+  --questionSpanFont890: 0.5rem;
+  --questionSpanFontWeight890: 800;
+  --questionSpanLeft890: 14px;
+  --cardWidth890: 6.5rem;
+  --cardHeight890: 6rem;
+  --cardBorderRadius890: 0.5rem;
+  --cardPadding890: 0.5rem;
+  --cardPWidth890: 5rem;
+  --cardPHeight890: 25px;
+  --cardPFont890: 15px;
+  --cardPPadding890: 2px;
+  --optionsHeight890: 29rem;
+  --categoryWidth890: 6.65rem;
+  --categoryHeight890: 6.15rem;
+  --categoryBorderRadius890: 0.6rem;
+  --categoryPFont890: 20px;
+  --tipoTexFont890: 40px;
+
+  /* resolução 840 */
+  --questionTop840: 36rem;
+  --botoesInicioWidth840: 2.8rem;
+  --botoesInicioTop840: 0.75rem;
+  --containerZIndex840: 1;
+  --containerBorderRadius840: 10px;
+  --containerWidth840: 50%;
+  --containerHeight840: 100vh;
+  --questionGap840: 50px;
+  --questionPosition840: relative;
+  --questionTop840: 0.5rem;
+  --questionPadding840: 0.25rem;
+  --questionBorderRadius840: 20px;
+  --questionBorder840: 3px solid #1a6b17;
+  --questionWidth840: 16.8rem;
+  --questionRight840: 1.3rem;
+  --questionH1Font840: 0.7rem;
+  --questionH1FontLeft840: 15px;
+  --questionSpanPadding840: 8px;
+  --questionSpanBorderRadius840: 50%;
+  --questionSpanFont840: 0.8rem;
+  --questionSpanFontWeight840: 800;
+  --questionSpanLeft840: 8px;
+  --cardWidth840: 7.5rem;
+  --cardHeight840: 6.7rem;
+  --cardBorderRadius840: 0.5rem;
+  --cardPadding840: 0.5rem;
+  --cardPWidth840: 6.5rem;
+  --cardPHeight840: 30px;
+  --cardPFont840: 20px;
+  --cardPPadding840: 1px;
+  --optionsHeight840: 32.5rem;
+  --categoryWidth840: 7.7rem;
+  --categoryHeight840: 6.85rem;
+  --categoryBorderRadius840: 0.6rem;
+  --categoryPFont840: 25px;
+  --tipoTexFont840: 43px;
+
+
+  /* resolução 430 */
+  --areaModalBotoesWidth430: 3rem;
+  --areaModalBotoesHeight430: 2rem;
+  --areaModalBotoesFont430: 1rem;
+  --areaModalPFont-Size430: 0.65rem;
+  --areaModalWidth430: 12rem;
+  --areaModalHeight430: 7rem;
+  --areaModalLeft430: 1rem;
+  --questionTop430: 3rem;
+  --botoesInicioWidth430: 4rem;
+  --botoesInicioTop430: 0.5rem;
+  --botoesInicioLeft430: 1.3rem;
+  --containerZIndex430: 1;
+  --containerBorderRadius430: 10px;
+  --containerWidth430: 50%;
+  --containerHeight430: 100vh;
+  --questionGap430: 50px;
+  --questionPosition430: relative;
+  --questionPadding430: 0.25rem;
+  --questionBorderRadius430: 20px;
+  --questionBorder430: 3px solid #1a6b17;
+  --questionWidth430: 11rem;
+  --questionRight430: 1.9rem;
+  --questionHeight430: 1.9rem;
+  --questionH1Font430: 0.45rem;
+  --questionH1FontLeft430: 15px;
+  --questionSpanPadding430: 5px;
+  --questionSpanBorderRadius430: 50%;
+  --questionSpanFont430: 0.6rem;
+  --questionSpanFontWeight430: 800;
+  --questionSpanLeft430: 8px;
+  --cardWidth430: 5rem;
+  --cardHeight430: 4.8rem;
+  --cardBorderRadius430: 0.5rem;
+  --cardPadding430: 0.5rem;
+  --cardPWidth430: 4.5rem;
+  --cardPHeight430: 25px;
+  --cardPFont430: 13px;
+  --cardPPadding430: 1px;
+  --optionsHeight430: 16rem;
+  --categoriesHeight430: 16.5rem;
+  --categoryWidth430: 5.2rem;
+  --categoryHeight430: 4.9rem;
+  --categoryBorderRadius430: 0.6rem;
+  --categoryPFont430: 14px;
+  --tipoTexFont430: 30px;
+  --contentWidth430: 11rem;
+  --contentTop430: 4rem;
+}
+
+
+/* resolução 1420 */
+
+@media (max-width: 1420px) {
+
+  #areaModal{
+    width: var(--areaModalWidth1420) !important;
+    height: var(--areaModalHeight1420) !important;
+    left: var(--areaModalLeft1420) !important;
+  }
+
+  #areaModal > p{
+      font-size: var(--areaModalPFont-Size1420) !important;
+  }
+
+  #areaModal > .botoes > .btn{
+    width: var(--areaModalBotoesWidth1420) !important;
+    font-size: var(--areaModalBotoesFont1420) !important;
+    height: var(--areaModalBotoesHeight1420) !important;
+    position: relative;
+    top: 1rem !important;
+  }
+
+  .botoes-inicio {
+    width: var(--botoesInicioWidth1420) !important;
+    top: var(--botoesInicioTop1420) !important;
+  }
+
+  #home,
+  #musicIcon {
+    height: 2rem;
+    width: 2rem;
+  }
+  .container {
+    z-index: var(--containerZIndex1420) !important;
+    border-radius: var(--containerBorderRadius1420) !important;
+    width: var(--containerWidth1420) !important;
+    height: var(--containerHeight1420) !important;
+  }
+
+  .question {
+    gap: var(--questionGap1420) !important;
+    position: var(--questionPosition1420) !important;
+    top: var(--questionTop1420) !important;
+    padding: var(--questionPadding1420) !important;
+    border-radius: var(--questionBorderRadius1420) !important;
+    border: var(--questionBorder1420) !important;
+    width: var(--questionWidth1420) !important;
+  }
+
+  .question h1 {
+    font-size: var(--questionH1Font1420) !important;
+  }
+
+  .question span {
+    padding: var(--questionSpanPadding1420) !important;
+    border-radius: var(--questionSpanBorderRadius1420) !important;
+    font-size: var(--questionSpanFont1420) !important;
+    font-weight: var(--questionSpanFontWeight1420) !important;
+    left: var(--questionSpanLeft1420) !important;
+  }
+
+  .content {
+    top: 1rem !important;
+  }
+
+  .options,
+  .categories {
+    justify-content: space-evenly !important;
+    height: var(--optionsHeight1420) !important;
+  }
+
+  .card {
+    width: var(--cardWidth1420) !important;
+    height: var(--cardHeight1420) !important;
+    border: 5px solid #69c644 !important;
+    border-radius: var(--cardBorderRadius1420) !important;
+    padding: var(--cardPadding1420) !important;
+    z-index: 20 !important;
+  }
+
+  .card p {
+    position: relative;
+    width: var(--cardPWidth1420) !important;
+    font-size: var(--cardPFont1420) !important;
+    padding: var(--cardPPadding1420) !important;
+    top: 5px;
+  }
+
+  .card img {
+    max-width: 80% !important;
+    max-height: 80% !important;
+  }
+
+  .category {
+    width: var(--categoryWidth1420) !important;
+    height: var(--categoryHeight1420) !important;
+    border-radius: var(--categoryBorderRadius1420) !important;
+  }
+
+  .category p {
+    font-size: var(--categoryPFont1420) !important;
+  }
+
+  .tipo-text {
+    font-size: var(--tipoTexFont1420) !important;
+  }
+}
+
+/* resolução 1030 */
+@media (max-width: 1030px) {
+  .question h1 {
+    font-size: var(--questionH1Font1030) !important;
+  }
+
+  .question span {
+    padding: var(--questionSpanPadding1030) !important;
+    border-radius: var(--questionSpanBorderRadius1030) !important;
+    font-size: var(--questionSpanFont1030) !important;
+    font-weight: var(--questionSpanFontWeight1030) !important;
+    left: var(--questionSpanLeft1030) !important;
+  }
+}
+
+/* resolução 890 */
+@media (max-width: 890px) {
+  #areaModal{
+    width: var(--areaModalWidth890) !important;
+    height: var(--areaModalHeight890) !important;
+    left: var(--areaModalLeft890) !important;
+  }
+
+  #areaModal > p{
+      font-size: var(--areaModalPFont-Size890) !important;
+  }
+
+  #areaModal > .botoes > .btn{
+    width: var(--areaModalBotoesWidth890) !important;
+    font-size: var(--areaModalBotoesFont890) !important;
+    height: var(--areaModalBotoesHeight890) !important;
+    position: relative;
+    top: 1rem !important;
+  }
+
+
+  .botoes-inicio {
+    width: var(--botoesInicioWidth890) !important;
+    top: var(--botoesInicioTop890) !important;
+  }
+
+  #home,
+  #musicIcon {
+    height: 2rem;
+    width: 2rem;
+  }
+  .container {
+    z-index: var(--containerZIndex890) !important;
+    border-radius: var(--containerBorderRadius890) !important;
+    width: var(--containerWidth890) !important;
+    height: var(--containerHeight890) !important;
+  }
+
+  .question {
+    gap: var(--questionGap890) !important;
+    position: var(--questionPosition890) !important;
+    top: var(--questionTop890) !important;
+    padding: var(--questionPadding890) !important;
+    border-radius: var(--questionBorderRadius890) !important;
+    border: var(--questionBorder890) !important;
+    width: var(--questionWidth890) !important;
+    right: var(--questionRight890) !important;
+  }
+
+  .question h1 {
+    font-size: var(--questionH1Font890) !important;
+    left: var(--questionH1FontLeft890) !important;
+    position: relative !important;
+  }
+
+  .question span {
+    padding: var(--questionSpanPadding890) !important;
+    border-radius: var(--questionSpanBorderRadius890) !important;
+    font-size: var(--questionSpanFont890) !important;
+    font-weight: var(--questionSpanFontWeight890) !important;
+    left: var(--questionSpanLeft890) !important;
+  }
+
+  .content {
+    top: 1rem !important;
+    width: 18rem !important;
+    right: 2rem !important;
+  }
+
+  .options,
+  .categories {
+    justify-content: space-evenly !important;
+    height: var(--optionsHeight890) !important;
+  }
+
+  .card {
+    width: var(--cardWidth890) !important;
+    height: var(--cardHeight890) !important;
+    border: 5px solid #69c644 !important;
+    border-radius: var(--cardBorderRadius890) !important;
+    padding: var(--cardPadding890) !important;
+    z-index: 20 !important;
+  }
+
+  .card p {
+    position: relative;
+    width: var(--cardPWidth890) !important;
+    font-size: var(--cardPFont890) !important;
+    padding: var(--cardPPadding890) !important;
+    top: 5px;
+    height: var(--cardPHeight890) !important;
+  }
+
+  .card img {
+    max-width: 80% !important;
+    max-height: 80% !important;
+  }
+
+  .category {
+    width: var(--categoryWidth890) !important;
+    height: var(--categoryHeight890) !important;
+    border-radius: var(--categoryBorderRadius890) !important;
+  }
+
+  .category p {
+    font-size: var(--categoryPFont890) !important;
+  }
+
+  .tipo-text {
+    font-size: var(--tipoTexFont890) !important;
+  }
+}
+
+  /* resolução 840 */
+@media (max-width: 840px) {
+    .botoes-inicio {
+      width: var(--botoesInicioWidth840) !important;
+      top: var(--botoesInicioTop840) !important;
+    }
+
+    #home,
+    #musicIcon {
+      height: 2rem;
+      width: 2rem;
+    }
+    .container {
+      z-index: var(--containerZIndex840) !important;
+      border-radius: var(--containerBorderRadius840) !important;
+      width: var(--containerWidth840) !important;
+      height: var(--containerHeight840) !important;
+    }
+
+    .question {
+      gap: var(--questionGap840) !important;
+      position: var(--questionPosition840) !important;
+      top: var(--questionTop840) !important;
+      padding: var(--questionPadding840) !important;
+      border-radius: var(--questionBorderRadius840) !important;
+      border: var(--questionBorder840) !important;
+      width: var(--questionWidth840) !important;
+      right: var(--questionRight840) !important;
+      height: var(--questionHeight430) !important;
+    }
+
+    .question h1 {
+      font-size: var(--questionH1Font840) !important;
+      left: var(--questionH1FontLeft840) !important;
+      position: relative !important;
+    }
+
+    .question span {
+      padding: var(--questionSpanPadding840) !important;
+      border-radius: var(--questionSpanBorderRadius840) !important;
+      font-size: var(--questionSpanFont840) !important;
+      font-weight: var(--questionSpanFontWeight840) !important;
+      left: var(--questionSpanLeft840) !important;
+    }
+
+    .content {
+      top: 1rem !important;
+      width: 18rem !important;
+      right: 2rem !important;
+    }
+
+    .options,
+    .categories {
+      justify-content: space-evenly !important;
+      height: var(--optionsHeight840) !important;
+    }
+
+    .card {
+      width: var(--cardWidth840) !important;
+      height: var(--cardHeight840) !important;
+      border: 5px solid #69c644 !important;
+      border-radius: var(--cardBorderRadius840) !important;
+      padding: var(--cardPadding840) !important;
+      z-index: 20 !important;
+    }
+
+    .card p {
+      position: relative;
+      width: var(--cardPWidth840) !important;
+      font-size: var(--cardPFont840) !important;
+      padding: var(--cardPPadding840) !important;
+      top: 5px;
+      height: var(--cardPHeight840) !important;
+    }
+
+    .card img {
+      max-width: 90% !important;
+      max-height: 90% !important;
+    }
+
+    .category {
+      width: var(--categoryWidth840) !important;
+      height: var(--categoryHeight840) !important;
+      border-radius: var(--categoryBorderRadius840) !important;
+    }
+
+    .category p {
+      font-size: var(--categoryPFont840) !important;
+    }
+
+    .tipo-text {
+      font-size: var(--tipoTexFont840) !important;
+    }
+  }
+
+/* resolução 430*/
+@media (max-width: 430px){
+  #areaModal{
+    width: var(--areaModalWidth430) !important;
+    height: var(--areaModalHeight430) !important;
+    left: var(--areaModalLeft430) !important;
+  }
+
+  #areaModal > p{
+      font-size: var(--areaModalPFont-Size430) !important;
+  }
+
+  #areaModal > .botoes > .btn{
+    width: var(--areaModalBotoesWidth430) !important;
+    font-size: var(--areaModalBotoesFont430) !important;
+    height: var(--areaModalBotoesHeight430) !important;
+    position: relative;
+    top: 1rem !important;
+  }
+
+
+    .botoes-inicio {
+      width: var(--botoesInicioWidth430) !important;
+      top: var(--botoesInicioTop430) !important;
+      left: var(--botoesInicioLeft430) !important;
+    }
+
+    #home,#musicIcon {
+      height: 1.5rem !important;
+      width: 1.5rem !important;
+    }
+    .container {
+      z-index: var(--containerZIndex430) !important;
+      border-radius: var(--containerBorderRadius430) !important;
+      width: var(--containerWidth430) !important;
+      height: var(--containerHeight430) !important;
+    }
+
+    .question {
+      gap: var(--questionGap430) !important;
+      position: var(--questionPosition430) !important;
+      top: var(--questionTop430) !important;
+      padding: var(--questionPadding430) !important;
+      border-radius: var(--questionBorderRadius430) !important;
+      border: var(--questionBorder430) !important;
+      width: var(--questionWidth430) !important;
+      right: var(--questionRight430) !important;
+      top: var(--questionTop430)!important;
+    }
+
+    .question h1 {
+      font-size: var(--questionH1Font430) !important;
+      left: var(--questionH1FontLeft430) !important;
+      position: relative !important;
+    }
+
+    .question span {
+      padding: var(--questionSpanPadding430) !important;
+      border-radius: var(--questionSpanBorderRadius430) !important;
+      font-size: var(--questionSpanFont430) !important;
+      font-weight: var(--questionSpanFontWeight430) !important;
+      left: var(--questionSpanLeft430) !important;
+    }
+
+    .content {
+      top: 1rem !important;
+      width: 18rem !important;
+      right: 2rem !important;
+    }
+
+    .options,
+    .categories {
+      justify-content: space-evenly !important;
+      height: var(--optionsHeight430) !important;
+    }
+
+    .card {
+      width: var(--cardWidth430) !important;
+      height: var(--cardHeight430) !important;
+      border: 5px solid #69c644 !important;
+      border-radius: var(--cardBorderRadius430) !important;
+      padding: var(--cardPadding430) !important;
+      z-index: 20 !important;
+    }
+
+    .card p {
+      position: relative;
+      width: var(--cardPWidth430) !important;
+      font-size: var(--cardPFont430) !important;
+      padding: var(--cardPPadding430) !important;
+      top: 5px;
+      height: var(--cardPHeight430) !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card img {
+      max-width: 65% !important;
+      max-height: 65% !important;
+    }
+
+    .category {
+      width: var(--categoryWidth430) !important;
+      height: var(--categoryHeight430) !important;
+      border-radius: var(--categoryBorderRadius430) !important;
+    }
+
+    .category p {
+      font-size: var(--categoryPFont430) !important;
+    }
+
+    .tipo-text {
+      font-size: var(--tipoTexFont430) !important;
+    }
+
+    .content{
+      width: var(--contentWidth430) !important;
+      top: var(--contentTop430) !important;
+      position: relative !important;
+    }
+  }
+
+@media (max-width: 390px){
+  #areaModal{
+    width: 11rem !important;
+    height: 7rem !important;
+  }
+
+  #areaModal > p{
+      font-size: 0.55rem!important;
+  }
+}
+
+@media (max-width: 375px){
+  #areaModal{
+    width: 11rem !important;
+    height: 7rem !important;
+    left: 0.4rem !important;
+  }
+
+  #areaModal > p{
+      font-size: 0.55rem!important;
+  }
+
+  #areaModal > .botoes > .btn{
+    width: var(--areaModalBotoesWidth430) !important;
+    font-size: var(--areaModalBotoesFont430) !important;
+    height: var(--areaModalBotoesHeight430) !important;
+    position: relative;
+    top: 1rem !important;
+  }
+}
