@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="O mundo está sujo e poluido, com sua ajuda poderemos salvá-lo!">
+  <meta name="keywords" content="Educação; Ecologia, Alfabetização, Escola, Aprendizado">
+  <meta name="author" content="Vittor Patricio, Maria Eduarda Migliaris, Jhonatas Micael Jacometto">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="../../assets/logo.svg" type="image/x-icon">
+  <link rel="stylesheet" href="../style/style.css" />
+  <title>Ecoguardiã: Mundo Salvo</title>
+</head>
+
+<body>
+  <div class="botoes-inicio">
+    <button>
+      <img id="home" src="../../assets/BotaoHome.svg" alt="Voltar tela inicial" data-bs-toggle="tooltip"
+        data-bs-placement="bottom" data-bs-title="Voltar para a tela inicial" draggable="false" />
+    </button>
+
+    <button id="toggleMusicButton">
+      <img id="musicIcon" src="../../assets/icones/som-off.svg" alt="Desativar Som" data-bs-toggle="tooltip"
+        data-bs-placement="bottom" data-bs-title="Desativar Som" draggable="false" />
+    </button>
+  </div>
+  <div id="areaModal" class="modal">
+    <p>Tem certeza que deseja voltar para a página inicial?</p>
+    <div class="botoes">
+      <button id="confirmYes" class="btn">Sim</button>
+      <button id="confirmNo" class="btn">Não</button>
+    </div>
+  </div>
+
+  <div class="overlay"></div>
+
+  <div class="container">
+    <img src="../assets/personagem-feliz.svg" alt="Ecoguardia" id="personagem" data-aos="fade-right"
+      data-aos-duration="1800">
+    <div class="card" data-aos="fade-left" data-aos-duration="1600">
+      <div class="card-header-agradecimento">
+        <img src="../assets/mundo_salvo.png" alt="mundo poluido destruicao poluicao poluição destrução" id="mundo">
+      </div>
+
+      <div class="card-body">
+        <div class="comoJogar">
+          <p>PARABÉNS 👏</p>
+        </div>
+        <div class="areaTextoProblema">
+          <h1 id="username" class="title"></h1>
+
+          <p>
+            <span class="specialText">PARABÉNS!</span> VOCÊ É MESMO <span class="specialText">INCRÍVEL!</span></br>
+            COM A SUA AJUDA, O MUNDO FOI SALVO.
+          </p>
+          <p>
+            VOCÊ CUIDOU DA FLORESTA, DO MAR E DA CIDADE COMO UM <span class="specialText">VERDADEIRO HERÓI!</span></br>
+            AGRADECEMOS POR TODA A SUA DEDICAÇÃO.
+          </p>
+
+        </div>
+        <div class="areaButtonProblema">
+          <button id="buttonNextGo" class="buttonGo" type="button" onclick="nextPage3()">PRÓXIMO ▶</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="../script.js"></script>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+</body>
+
+</html>

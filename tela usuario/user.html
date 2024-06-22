@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../assets/logo.svg" type="image/x-icon">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./style/style.css">
+  <title>Perfil</title>
+</head>
+
+<body>
+  <div class="modal-alert">
+    <p class="modal-alert-texto"></p>
+  </div>
+  <main>
+    <div class="botoes-user">
+      <button id="voltar" class="btnsHover">
+        <img src="../assets/icones/voltar.svg" alt="" draggable="false">
+      </button>
+      <button id="sound" class="btnsHover">
+        <img id="musicIcon" src="../assets/som-ativado.svg" alt="Desativar Som" data-bs-toggle="tooltip"
+          data-bs-placement="bottom" data-bs-title="Desativar Som" draggable="false" />
+      </button>
+    </div>
+
+    <div class="overlay"></div>
+    <div id="modalImages">
+      <div id="images"></div>
+      <button id="salvarFoto" type="submit">ENVIAR FOTO</button>
+      <div class="fechar-modal">
+        <img src="./fechar-modal.svg" alt="">
+      </div>
+    </div>
+    <div class="card-usuario " data-aos="fade-right" data-aos-duration="2000">
+
+
+      <div id="imageUser">
+        <div class="image">
+          <img id="user" src="" alt="Foto de perfil">
+          <div id="backgroundImage"></div>
+          <div class="areaCamera">
+            <img id="camera" src="camera.svg" alt="">
+          </div>
+        </div>
+        <div class="data">
+          <p id="name">Nome:</p>
+          <p id="escola">Escola: </p>
+        </div>
+      </div>
+      <div id="dataUser">
+        <div class="header">
+          <h1>Perfil do usuário</h1>
+          <p class="p-player">
+            <span class="player"></span>
+            essa é a tela de perfil, aqui você pode encontrar o historico de suas partidas e algumas informações
+            pessoais
+          </p>
+        </div>
+        <div class="dadosUsuario">
+          <div class="resultados">
+            <div class="floresta card">
+              <p id="faseFloresta"></p>
+              <p id="lastFaseFloresta"></p>
+            </div>
+            <div class="quiz card">
+              <p id="acertosQuizFloresta"></p>
+              <p id="lastAcertosQuizFloresta"></p>
+            </div>
+            <div class="mar card">
+              <p id="faseMar"></p>
+              <p id="lastFaseMar"></p>
+            </div>
+            <div class="quiz card">
+              <p id="acertosQuizMar"></p>
+              <p id="lastAcertosQuizMar"></p>
+            </div>
+
+            <div class="palavra card">
+              <p id="acertosPalavra"></p>
+              <p id="lastAcertosPalavra"></p>
+            </div>
+            <div class="categoria card">
+              <p id="acertosCategorias"></p>
+              <p id="lastAcertosCategorias"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="./js/script.js"></script>
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+</body>
+
+</html>

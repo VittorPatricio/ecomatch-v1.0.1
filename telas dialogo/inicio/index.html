@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="O mundo está sujo e poluido, com sua ajuda poderemos salvá-lo!"
+    />
+    <meta
+      name="keywords"
+      content="Educação; Ecologia, Alfabetização, Escola, Aprendizado"
+    />
+    <meta
+      name="author"
+      content="Vittor Patricio, Maria Eduarda Migliaris, Jhonatas Micael Jacometto"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="shortcut icon"
+      href="../../assets/logo.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../style/style.css" />
+    <title>Início</title>
+  </head>
+  <body>
+    <div class="botoes-inicio">
+      <button>
+        <img
+          id="home"
+          src="../../assets/BotaoHome.svg"
+          alt="Voltar tela inicial"
+          data-bs-toggle="tooltip"
+          data-bs-placement="bottom"
+          data-bs-title="Voltar para a tela inicial"
+          draggable="false"
+        />
+      </button>
+
+      <button id="toggleMusicButton">
+        <img
+          id="musicIcon"
+          src="../../assets/icones/som-off.svg"
+          alt="Desativar Som"
+          data-bs-toggle="tooltip"
+          data-bs-placement="bottom"
+          data-bs-title="Desativar Som"
+          draggable="false"
+        />
+      </button>
+    </div>
+    <div id="areaModal" class="modal">
+      <p>Tem certeza que deseja voltar para a página inicial?</p>
+      <div class="botoes">
+        <button id="confirmYes" class="btn">Sim</button>
+        <button id="confirmNo" class="btn">Não</button>
+      </div>
+    </div>
+
+    <div class="overlay"></div>
+
+    <div class="container">
+      <img
+        src="../assets/personagem-feliz.svg"
+        alt="Ecoguardia"
+        id="personagem"
+        data-aos="fade-right"
+        data-aos-duration="1800"
+      />
+      <div class="card" data-aos="fade-left" data-aos-duration="1600">
+        <div class="card-header"></div>
+
+        <div class="card-body">
+          <div class="comoJogar">
+            <p>BEM-VINDO(A) 👋</p>
+          </div>
+          <div class="areaTexto">
+            <h1 id="username" class="title"></h1>
+            <p>OLÁ, MEU NOME É <span class="specialText">ECOGUARDIÃ!</span></p>
+            <p>
+              EU SOU UMA GUARDIÃ DO
+              <span class="specialText">MEIO AMBIENTE!</span> E ESTOU AQUI PARA
+              TE AJUDAR A <span class="specialText">SALVAR</span> O MUNDO!
+            </p>
+            <p>
+              ESTOU SEMPRE LUTANDO PARA
+              <span class="specialText">MANTER</span> O PLANETA LIMPO E
+              SAUDÁVEL. <span class="specialText">TODOS</span> NÓS TEMOS UM
+              PAPEL NA PROTEÇÃO DO MEIO AMBIENTE.
+              <span class="specialText">JUNTE-SE A MIM</span> NESSA MISSÃO!
+            </p>
+          </div>
+          <div class="areaButton">
+            <button
+              id="buttonNextGo"
+              class="buttonGo"
+              type="button"
+              onclick="nextPage1()"
+            >
+              PRÓXIMO ▶
+            </button>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="../script.js"></script>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+  </body>
+</html>

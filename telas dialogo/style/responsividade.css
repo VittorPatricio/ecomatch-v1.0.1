@@ -1,0 +1,1293 @@
+:root {
+  --positionUnset: unset;
+  --cardBottom: 1rem;
+  --cardHeaderDisplay: none;
+
+     /*     resolução até 2000 */
+     --card2000width: 40%;
+     --card2000height: 45rem;
+     --card2000right: 5%;
+     --cardBorderRadius2000: 12px;
+     --cardHeaderBorderRadius2000: 8px 8px 0px 0px;
+     --cardHeaderHeight2000: 13rem;
+     --areaButtonHeight2000: 10rem;
+     --areaButtonHeightProblema2000: 10rem;
+     --buttonFontSize2000: 22px;
+     --buttonBorderRadius2000: 6px;
+     --buttonHeight2000: 3rem;
+     --buttonHeightHover2000: 3.2rem;
+     --text2000: 20px;
+     --titleFontSize2000: 38px;
+     --areaTextoHeight2000: 90%;
+     --areaTextoProblema2000: 55%;
+     --fontWeightSpan2000: 700;
+     --marginTopComoJogar2000: 1rem;
+     --personagemHeight2000: 55rem;
+     --personagemBottom2000: 0rem;
+     --personagemLeft2000: 5rem;
+     --fontSizeComoJogar2000: 16px;
+     --mundoHeight2000: 10rem;
+     --mundoWidth2000: 10rem;
+     --tutorialHeight2000: 12rem;
+     --tutorialWidth2000: 20rem;
+     /*     resolução até 2000 */
+
+   /*     resolução até 1780 */
+   --card1780width: 40%;
+   --card1780height: 38rem;
+   --card1780right: 5%;
+   --cardBorderRadius1780: 12px;
+   --cardHeaderBorderRadius1780: 8px 8px 0px 0px;
+   --cardHeaderHeight1780: 34rem;
+   --areaButtonHeight1780: 8rem;
+   --areaButtonHeightProblema1780: 10rem;
+   --buttonFontSize1780: 22px;
+   --buttonBorderRadius1780: 6px;
+   --buttonHeight1780: 2.8rem;
+   --buttonHeightHover1780: 3rem;
+   --text1780: 20px;
+   --titleFontSize1780: 36px;
+   --areaTextoHeight1780: 100%;
+   --areaTextoProblema1780: 55%;
+   --fontWeightSpan1780: 700;
+   --marginTopComoJogar1780: 1rem;
+   --personagemHeight1780: 40rem;
+   --personagemBottom1780: 0rem;
+   --personagemLeft1780: 5rem;
+   --fontSizeComoJogar1780: 16px;
+   --mundoHeight1780: 10rem;
+   --mundoWidth1780: 10rem;
+   --tutorialHeight1780: 12rem;
+   --tutorialWidth1780: 20rem;
+   /*     resolução até 1780 */
+
+  /*     resolução até 1420 */
+  --card1420width: 40%;
+  --card1420height: 33rem;
+  --card1420right: 5%;
+  --cardBorderRadius1420: 12px;
+  --cardHeaderBorderRadius1420: 8px 8px 0px 0px;
+  --cardHeaderHeight1420: 15rem;
+  --areaButtonHeight1420: 8rem;
+  --areaButtonHeightProblema1420: 8rem;
+  --buttonFontSize1420: 20px;
+  --buttonBorderRadius1420: 6px;
+  --buttonHeight1420: 2.6rem;
+  --buttonHeightHover1420: 2.8rem;
+  --text1420: 18px;
+  --titleFontSize1420: 34px;
+  --areaTextoHeight1420: 100%;
+  --areaTextoProblema1420: 55%;
+  --fontWeightSpan1420: 700;
+  --marginTopComoJogar1420: 1rem;
+  --personagemHeight1420: 36rem;
+  --personagemBottom1420: 0rem;
+  --personagemLeft1420: 5rem;
+  --fontSizeComoJogar1420: 14px;
+  --mundoHeight1420: 9.5rem;
+  --mundoWidth1420: 9.5rem;
+  --tutorialHeight1420: 8rem;
+  --tutorialWidth1420: 16rem;
+  
+  /*     resolução até 1420 */
+        
+    /*     resolução até 1290 */
+    --card1290width: 40%;
+    --card1290height: 35rem;
+    --card1290right: 5%;
+    --cardBorderRadius1290: 12px;
+    --cardHeaderBorderRadius1290: 8px 8px 0px 0px;
+    --cardHeaderHeight1290: 28rem;
+    --areaButtonHeight1290: 8rem;
+    --areaButtonHeightProblema1290: 10rem;
+    --buttonFontSize1290: 20px;
+    --buttonBorderRadius1290: 6px;
+    --buttonHeight1290: 3rem;
+    --buttonHeightHover1290: 3.25rem;
+    --text1290: 18px;
+    --titleFontSize1290: 36px;
+    --areaTextoHeight1290: 90%;
+    --areaTextoProblema1290: 50%;
+    --fontWeightSpan1290: 700;
+    --marginTopComoJogar1290: 1rem;
+    --fontSizeComoJogar1290: 14px;
+    --mundoHeight1290: 10rem;
+    --mundoWidth1290: 10rem;
+    --personagemHeight1290: 26rem;
+    /*     resolução até 1290 */  
+
+  /*     resolução até 900 */
+  --containerPaddingTop900: 1.85rem;
+  --card900width: 70%;
+  --card900height: 28rem;
+  --cardBorderRadius900: 12px;
+  --cardHeaderBorderRadius900: 8px 8px 0px 0px;
+  --cardHeaderHeight900: 0rem;
+  --areaButtonHeight900: 10rem;
+  --areaButtonHeightProblema900: 18rem;
+  --buttonFontSize900: 24px;
+  --buttonBorderRadius900: 6px;
+  --buttonHeight900: 3rem;
+  --buttonHeightHover900: 3.35rem;
+  --text900: 22px;
+  --titleFontSize900: 46px;
+  --areaTextoHeight900: 100%;
+  --areaTextoProblema900: 100%;
+  --fontWeightSpan900: 700;
+  --marginTopComoJogar900: 1.2rem;
+  --fontSizeComoJogar900: 18px;
+  --mundoHeight900: 10rem;
+  --mundoWidth900: 10rem;
+  --personagemHeight900: 24rem;
+  /*     resolução até 900 */
+
+  /*     resolução até 840 */
+  --containerPaddingTop840: 1.85rem;
+  --card840width: 70%;
+  --card840height: 28rem;
+  --cardBorderRadius840: 12px;
+  --cardHeaderBorderRadius840: 8px 8px 0px 0px;
+  --cardHeaderHeight840: 0rem;
+  --areaButtonHeight840: 10rem;
+  --areaButtonHeightProblema840: 18rem;
+  --buttonFontSize840: 22.5px;
+  --buttonBorderRadius840: 6px;
+  --buttonHeight840: 3rem;
+  --buttonHeightHover840: 3.35rem;
+  --text840: 20px;
+  --titleFontSize840: 44px;
+  --areaTextoHeight840: 100%;
+  --areaTextoProblema840: 100%;
+  --fontWeightSpan840: 700;
+  --marginTopComoJogar840: 1rem;
+  --fontSizeComoJogar840: 16px;
+  --mundoHeight840: 10rem;
+  --mundoWidth840: 10rem;
+  --personagemHeight840: 24rem;
+  --personagemMarginTop840: -1rem;
+  /*     resolução até 840 */
+
+  /*     resolução até 780 */
+  --containerPaddingTop780: 2.85rem;
+  --card780width: 70%;
+  --card780height: 25rem;
+  --cardBorderRadius780: 12px;
+  --cardHeaderBorderRadius780: 8px 8px 0px 0px;
+  --cardHeaderHeight780: 20rem;
+  --areaButtonHeight780: 10rem;
+  --areaButtonHeightProblema780: 8rem;
+  --buttonFontSize780: 22.5px;
+  --buttonBorderRadius780: 6px;
+  --buttonHeight780: 2.5rem;
+  --buttonHeightHover780: 2.75rem;
+  --text780: 18.75px;
+  --titleFontSize780: 42px;
+  --areaTextoHeight780: 100%;
+  --areaTextoProblema780: 60%;
+  --fontWeightSpan780: 700;
+  --marginTopComoJogar780: 0.75rem;
+  --fontSizeComoJogar780: 16px;
+  --mundoHeight780: 10rem;
+  --mundoWidth780: 10rem;
+  --personagemHeight780: 20rem;
+  --personagemMarginTop780: -1rem;
+  /*     resolução até 780 */
+
+  /*     resolução até 560 */
+  --containerPaddingTop560: 2.85rem;
+  --card560width: 90%;
+  --card560height: 20rem;
+  --card560right: 1.5%;
+  --cardBorderRadius560: 12px;
+  --cardHeaderBorderRadius560: 8px 8px 0px 0px;
+  --cardHeaderHeight560: 9rem;
+  --areaButtonHeight560: 7rem;
+  --areaButtonHeightProblema560: 9rem;
+  --buttonFontSize560: 16px;
+  --buttonBorderRadius560: 6px;
+  --buttonHeight560: 2.25rem;
+  --buttonHeightHover560: 2.5rem;
+  --text560: 15px;
+  --titleFontSize560: 28px;
+  --areaTextoHeight560: 85%;
+  --areaTextoProblema560: 65%;
+  --fontWeightSpan560: 700;
+  --marginTopComoJogar560: 0.75rem;
+  --fontSizeComoJogar560: 13.5px;
+  --mundoHeight560: 7rem;
+  --mundoWidth560: 7rem;
+  --personagemHeight560: 18rem;
+  --personagemMarginTop560: -1rem;
+  /*     resolução até 560 */
+
+  /*     resolução até 418 */
+  --containerPaddingTop418: 4.85rem;
+  --card418width: 90%;
+  --card418height: 19rem;
+  --card418right: 1.5%;
+  --cardBorderRadius418: 12px;
+  --cardHeaderBorderRadius418: 8px 8px 0px 0px;
+  --cardHeaderHeight418: 0rem;
+  --areaButtonHeight418: 7rem;
+  --areaButtonHeightProblema418: 9rem;
+  --buttonFontSize418: 16px;
+  --buttonBorderRadius418: 6px;
+  --buttonHeight418: 2.2rem;
+  --buttonHeightHover418: 2.5rem;
+  --text418: 15px;
+  --titleFontSize418: 28px;
+  --areaTextoHeight418: 100%;
+  --areaTextoProblema418: 75%;
+  --fontWeightSpan418: 700;
+  --marginTopComoJogar418: 0.75rem;
+  --fontSizeComoJogar418: 12px;
+  --mundoHeight418: 6.6rem;
+  --mundoWidth418: 6.6rem;
+  --personagemHeight418: 16rem;
+  --personagemMarginTop418: -1rem;
+  /*     resolução até 418 */
+
+  /*     resolução até 413 */
+  --containerPaddingTop413: 5.5rem;
+  --card413width: 90%;
+  --card413height: 20rem;
+  --cardBorderRadius413: 12px;
+  --cardHeaderBorderRadius413: 8px 8px 0px 0px;
+  --cardHeaderHeight413: 0rem;
+  --areaButtonHeight413: 7rem;
+  --areaButtonHeightProblema413: 9rem;
+  --buttonFontSize413: 16.5px;
+  --buttonBorderRadius413: 6px;
+  --buttonHeight413: 2rem;
+  --buttonHeightHover413: 2.15rem;
+  --text413: 14.5px;
+  --titleFontSize413: 24px;
+  --areaTextoHeight413: 100%;
+  --areaTextoProblema413: 65%;
+  --fontWeightSpan413: 700;
+  --marginTopComoJogar413: 0.75rem;
+  --fontSizeComoJogar413: 11px;
+  --mundoHeight413: 5.5rem;
+  --mundoWidth413: 5.5rem;
+  --personagemHeight413: 18rem;
+  --personagemMarginTop413: -1rem;
+  /*     resolução até 413 */
+
+  /*     resolução até 391 */
+  --containerPaddingTop391: 4.5rem;
+  --card391width: 95%;
+  --card391height: 16rem;
+  --card391right: auto;
+  --cardBorderRadius391: 12px;
+  --cardHeaderBorderRadius391: 8px 8px 0px 0px;
+  --cardHeaderHeight391: 0rem;
+  --areaButtonHeight391: 5.5rem;
+  --areaButtonHeightProblema391: 11rem;
+  --buttonFontSize391: 15.5px;
+  --buttonBorderRadius391: 6px;
+  --buttonHeight391: 1.75rem;
+  --buttonHeightHover391: 2rem;
+  --text391: 12.5px;
+  --titleFontSize391: 24.5px;
+  --areaTextoHeight391: 100%;
+  --areaTextoProblema391: 100%;
+  --fontWeightSpan391: 700;
+  --marginTopComoJogar391: 0.6rem;
+  --fontSizeComoJogar391: 10.2px;
+  --mundoHeight391: 5.5rem;
+  --mundoWidth391: 5.5rem;
+  --personagemHeight391: 16rem;
+  --personagemMarginTop391: -1rem;
+  /*     resolução até 391 */
+
+  /*     resolução até 376 */
+  --containerPaddingTop376: 6.85rem;
+  --card376width: 90%;
+  --card376height: 15rem;
+  --card376right: auto;
+  --cardBorderRadius376: 12px;
+  --cardHeaderBorderRadius376: 8px 8px 0px 0px;
+  --cardHeaderHeight376: 0rem;
+  --areaButtonHeight376: 5rem;
+  --areaButtonHeightProblema376: 9rem;
+  --buttonFontSize376: 14px;
+  --buttonBorderRadius376: 6px;
+  --buttonHeight376: 1.75rem;
+  --buttonHeightHover376: 1.95rem;
+  --text376: 12.2px;
+  --titleFontSize376: 18px;
+  --areaTextoHeight376: 100%;
+  --areaTextoProblema376: 100%;
+  --fontWeightSpan376: 700;
+  --marginTopComoJogar376: 0.55rem;
+  --fontSizeComoJogar376: 9px;
+  --mundoHeight376: 5rem;
+  --mundoWidth376: 5rem;
+  --personagemHeight376: 14rem;
+  --personagemMarginTop376: -1rem;
+  /*     resolução até 376 */
+
+  /*     resolução até 365 */
+  --containerPaddingTop365: 5.5rem;
+  --card365width: 90%;
+  --card365height: 16.5rem;
+  --card365right: auto;
+  --cardBorderRadius365: 12px;
+  --cardHeaderBorderRadius365: 8px 8px 0px 0px;
+  --cardHeaderHeight365: 0rem;
+  --areaButtonHeight365: 5rem;
+  --areaButtonHeightProblema365: 8rem;
+  --buttonFontSize365: 14px;
+  --buttonBorderRadius365: 6px;
+  --buttonHeight365: 1.6rem;
+  --buttonHeightHover365: 1.85rem;
+  --text365: 12px;
+  --titleFontSize365: 18px;
+  --areaTextoHeight365: 100%;
+  --areaTextoProblema365: 100%;
+  --fontWeightSpan365: 700;
+  --marginTopComoJogar365: 0.5rem;
+  --fontSizeComoJogar365: 8px;
+  --mundoHeight365: 5rem;
+  --mundoWidth365: 5rem;
+  --personagemHeight365: 14rem;
+  --personagemMarginTop365: -1rem;
+  /*     resolução até 365 */
+
+  /*     resolução até 350 */
+  --containerPaddingTop350: 1rem;
+  --card350width: 90%;
+  --card350height: 13.5rem;
+  --card350right: auto;
+  --cardBottom350: -5rem;
+  --cardBorderRadius350: 12px;
+  --cardHeaderBorderRadius350: 8px 8px 0px 0px;
+  --cardHeaderHeight350: 6rem;
+  --areaButtonHeight350: 7rem;
+  --areaButtonHeightProblema350: 8.65rem;
+  --buttonFontSize350: 12px;
+  --buttonBorderRadius350: 6px;
+  --buttonHeight350: 1.75rem;
+  --buttonHeightHover350: 2rem;
+  --text350: 10.8px;
+  --titleFontSize350: 18px;
+  --areaTextoHeight350: 100%%;
+  --areaTextoProblema350: 95%;
+  --fontWeightSpan350: 700;
+  --marginTopComoJogar350: 0.5rem;
+  --personagemHeight350: 12rem;
+  --personagemMarginTop350: -1rem;
+  --fontSizeComoJogar350: 8px;
+  --mundoHeight350: 5.5rem;
+  --mundoWidth350: 5.5rem;
+  /*     resolução até 350 */
+}
+
+@media (max-width: 2000px) {
+  .card {
+    right: var(--card2000right) !important;
+    height: var(--card2000height) !important;
+    width: var(--card2000width) !important;
+    background-color: #fff;
+    border-radius: var(--cardBorderRadius2000) !important;
+    position: absolute !important;
+  }
+  .card-header {
+    border-radius: var(--cardHeaderBorderRadius2000) !important;
+    height: var(--cardHeaderHeight2000) !important;
+  }
+  #tutorial{
+    height: var(--tutorialHeight2000) !important;
+    width: var(--tutorialWidth2000) !important;
+  }
+  #personagem{
+    height: var(--personagemHeight2000) !important;
+    left: var(--personagemLeft2000) !important;
+    bottom: var(--personagemBottom2000) !important;
+    position: absolute !important;
+  }
+  #mundo {
+    height: var(--mundoHeight2000) !important;
+    width: var(--mundoWidth2000) !important;
+  }
+  span {
+    font-weight: var(--fontWeightSpan2000) !important;
+  }
+  .areaTexto {
+    font-size: var(--text2000) !important;
+    height: var(--areaTextoHeight2000) !important;
+    justify-content: space-between !important;
+  }
+  .areaTextoProblema {
+    font-size: var(--text2000) !important;
+    height: var(--areaTextoProblema2000) !important;
+    justify-content: space-around !important;
+  }
+
+  .title {
+    font-size: var(--titleFontSize2000) !important;
+  }
+  .comoJogar {
+    font-size: var(--fontSizeComoJogar2000) !important;
+    margin-top: var(--marginTopComoJogar2000) !important;
+    margin-bottom: var(--marginTopComoJogar2000) !important;
+  }
+  .areaButton {
+    height: var(--areaButtonHeight2000) !important;
+  }
+  .areaButtonProblema {
+    height: var(--areaButtonHeightProblema2000) !important;
+  }
+
+  .buttonGo {
+    height: var(--buttonHeight2000) !important;
+    font-size: var(--buttonFontSize2000) !important;
+    border-radius: var(--buttonBorderRadius2000) !important;
+  }
+  .buttonGo:hover {
+    height: var(--buttonHeightHover2000) !important;
+  }
+}
+
+@media (max-width: 1780px) {
+  .card {
+    right: var(--card1780right) !important;
+    height: var(--card1780height) !important;
+    width: var(--card1780width) !important;
+    background-color: #fff;
+    border-radius: var(--cardBorderRadius1780) !important;
+    position: absolute !important;
+  }
+  .card-header {
+    border-radius: var(--cardHeaderBorderRadius1780) !important;
+    height: var(--cardHeaderHeight1780) !important;
+  }
+  #tutorial{
+    width: var(--tutorialWidth1780) !important;
+    height: var(--tutorialHeight1780) !important;
+  }
+  #personagem{
+    height: var(--personagemHeight1780) !important;
+    left: var(--personagemLeft1780) !important;
+    bottom: var(--personagemBottom1780) !important;
+    position: absolute !important;
+  }
+  #mundo {
+    height: var(--mundoHeight1780) !important;
+    width: var(--mundoWidth1780) !important;
+  }
+  span {
+    font-weight: var(--fontWeightSpan1780) !important;
+  }
+  .areaTexto {
+    font-size: var(--text1780) !important;
+    height: var(--areaTextoHeight1780) !important;
+    justify-content: space-between !important;
+  }
+  .areaTextoProblema {
+    font-size: var(--text1780) !important;
+    height: var(--areaTextoProblema1780) !important;
+    justify-content: space-around !important;
+  }
+
+  .title {
+    font-size: var(--titleFontSize1780) !important;
+  }
+  .comoJogar {
+    font-size: var(--fontSizeComoJogar1780) !important;
+    margin-top: var(--marginTopComoJogar1780) !important;
+    margin-bottom: var(--marginTopComoJogar1780) !important;
+  }
+  .areaButton {
+    height: var(--areaButtonHeight1780) !important;
+  }
+  .areaButtonProblema {
+    height: var(--areaButtonHeightProblema1780) !important;
+  }
+
+  .buttonGo {
+    height: var(--buttonHeight1780) !important;
+    font-size: var(--buttonFontSize1780) !important;
+    border-radius: var(--buttonBorderRadius1780) !important;
+  }
+  .buttonGo:hover {
+    height: var(--buttonHeightHover1780) !important;
+  }
+}
+
+@media (max-width: 1420px) {
+  .card {
+    right: var(--card1420right) !important;
+    height: var(--card1420height) !important;
+    width: var(--card1420width) !important;
+    background-color: #fff;
+    border-radius: var(--cardBorderRadius1420) !important;
+    position: absolute !important;
+  }
+  .card-header {
+    border-radius: var(--cardHeaderBorderRadius1420) !important;
+    height: var(--cardHeaderHeight1420) !important;
+  }
+  #tutorial{
+    height: var(--tutorialHeight1420) !important;
+    width: var(--tutorialWidth1420) !important;
+  }
+  #personagem{
+    height: var(--personagemHeight1420) !important;
+    left: var(--personagemLeft1420) !important;
+    bottom: var(--personagemBottom1420) !important;
+    position: absolute !important;
+  }
+  #mundo {
+    height: var(--mundoHeight1420) !important;
+    width: var(--mundoWidth1420) !important;
+  }
+  span {
+    font-weight: var(--fontWeightSpan1420) !important;
+  }
+  .areaTexto {
+    font-size: var(--text1420) !important;
+    height: var(--areaTextoHeight1420) !important;
+    justify-content: space-between !important;
+  }
+  .areaTextoProblema {
+    font-size: var(--text1420) !important;
+    height: var(--areaTextoProblema1420) !important;
+    justify-content: space-around !important;
+  }
+
+  .title {
+    font-size: var(--titleFontSize1420) !important;
+  }
+  .comoJogar {
+    font-size: var(--fontSizeComoJogar1420) !important;
+    margin-top: var(--marginTopComoJogar1420) !important;
+    margin-bottom: var(--marginTopComoJogar1420) !important;
+  }
+  .areaButton {
+    height: var(--areaButtonHeight1420) !important;
+  }
+  .areaButtonProblema {
+    height: var(--areaButtonHeightProblema1420) !important;
+  }
+
+  .buttonGo {
+    height: var(--buttonHeight1420) !important;
+    font-size: var(--buttonFontSize1420) !important;
+    border-radius: var(--buttonBorderRadius1420) !important;
+  }
+  .buttonGo:hover {
+    height: var(--buttonHeightHover1420) !important;
+  }
+}
+
+@media (max-width: 1290px) {
+  .card {
+    right: var(--card1290right) !important;
+    height: var(--card1290height) !important;
+    width: var(--card1290width) !important;
+    background-color: #fff;
+    border-radius: var(--cardBorderRadius1290) !important;
+    position: absolute !important;
+  }
+  #personagem{
+    position: absolute !important;
+  }
+  .card-header {
+    border-radius: var(--cardHeaderBorderRadius1290) !important;
+    height: var(--cardHeaderHeight1290) !important;
+  }
+  #mundo {
+    height: var(--mundoHeight1290) !important;
+    width: var(--mundoWidth1290) !important;
+  }
+  span {
+    font-weight: var(--fontWeightSpan1290) !important;
+  }
+  .areaTexto {
+    font-size: var(--text1290) !important;
+    height: var(--areaTextoHeight1290) !important;
+  }
+  .areaTextoProblema {
+    font-size: var(--text1290) !important;
+    height: var(--areaTextoProblema1290) !important;
+    justify-content: space-between !important;
+  }
+
+  .title {
+    font-size: var(--titleFontSize1290) !important;
+  }
+  .comoJogar {
+    font-size: var(--fontSizeComoJogar1290) !important;
+    margin-top: var(--marginTopComoJogar1290) !important;
+    margin-bottom: var(--marginTopComoJogar1290) !important;
+  }
+  .areaButton {
+    height: var(--areaButtonHeight1290) !important;
+  }
+  .areaButtonProblema {
+    height: var(--areaButtonHeightProblema1290) !important;
+  }
+
+  .buttonGo {
+    height: var(--buttonHeight1290) !important;
+    font-size: var(--buttonFontSize1290) !important;
+    border-radius: var(--buttonBorderRadius1290) !important;
+  }
+  .buttonGo:hover {
+    height: var(--buttonHeightHover1290) !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .container{
+    padding-top: var(--containerPaddingTop900) !important;
+  }
+  .card {
+    right: var(--card900right) !important;
+    height: var(--card900height) !important;
+    width: var(--card900width) !important;
+    background-color: #fff;
+    border-radius: var(--cardBorderRadius900) !important;
+    position: var(--positionUnset) !important;
+  }
+  #personagem{
+    height: var(--personagemHeight900) !important;
+    position: var(--positionUnset) !important;;
+  }
+  .card-header {
+    border-radius: var(--cardHeaderBorderRadius900) !important;
+    height: var(--cardHeaderHeight900) !important;
+  }
+  #mundo {
+    height: var(--mundoHeight900) !important;
+    width: var(--mundoWidth900) !important;
+  }
+  span {
+    font-weight: var(--fontWeightSpan900) !important;
+  }
+  .areaTexto {
+    font-size: var(--text900) !important;
+    height: var(--areaTextoHeight900) !important;
+  }
+  .areaTextoProblema {
+    font-size: var(--text900) !important;
+    height: var(--areaTextoProblema900) !important;
+    justify-content: space-between !important;
+  }
+
+  .title {
+    font-size: var(--titleFontSize900) !important;
+  }
+  .comoJogar {
+    font-size: var(--fontSizeComoJogar900) !important;
+    margin-top: var(--marginTopComoJogar900) !important;
+    margin-bottom: var(--marginTopComoJogar900) !important;
+  }
+  .areaButton {
+    height: var(--areaButtonHeight900) !important;
+  }
+  .areaButtonProblema {
+    height: var(--areaButtonHeightProblema900) !important;
+  }
+
+  .buttonGo {
+    height: var(--buttonHeight900) !important;
+    font-size: var(--buttonFontSize900) !important;
+    border-radius: var(--buttonBorderRadius900) !important;
+  }
+  .buttonGo:hover {
+    height: var(--buttonHeightHover900) !important;
+  }
+  .card-header-desafio, .card-header-agradecimento{
+    display: var(--cardHeaderDisplay)  !important;
+  }
+}
+
+@media (max-width: 840px) {
+  .container{
+    padding-top: var(--containerPaddingTop840) !important;
+  }
+  .card {
+    right: var(--card840right) !important;
+    height: var(--card840height) !important;
+    width: var(--card840width) !important;
+    background-color: #fff;
+    border-radius: var(--cardBorderRadius840) !important;
+    position: var(--positionUnset) !important;
+  }
+  #personagem{
+    height: var(--personagemHeight840) !important;
+    position: var(--positionUnset) !important;;
+  }
+  .card-header {
+    border-radius: var(--cardHeaderBorderRadius840) !important;
+    height: var(--cardHeaderHeight840) !important;
+  }
+  #mundo {
+    height: var(--mundoHeight840) !important;
+    width: var(--mundoWidth840) !important;
+  }
+  span {
+    font-weight: var(--fontWeightSpan840) !important;
+  }
+  .areaTexto {
+    font-size: var(--text840) !important;
+    height: var(--areaTextoHeight840) !important;
+  }
+  .areaTextoProblema {
+    font-size: var(--text840) !important;
+    height: var(--areaTextoProblema840) !important;
+    justify-content: space-between !important;
+  }
+
+  .title {
+    font-size: var(--titleFontSize840) !important;
+  }
+  .comoJogar {
+    font-size: var(--fontSizeComoJogar840) !important;
+    margin-top: var(--marginTopComoJogar840) !important;
+    margin-bottom: var(--marginTopComoJogar840) !important;
+  }
+  .areaButton {
+    height: var(--areaButtonHeight840) !important;
+  }
+  .areaButtonProblema {
+    height: var(--areaButtonHeightProblema840) !important;
+  }
+
+  .buttonGo {
+    height: var(--buttonHeight840) !important;
+    font-size: var(--buttonFontSize840) !important;
+    border-radius: var(--buttonBorderRadius840) !important;
+  }
+  .buttonGo:hover {
+    height: var(--buttonHeightHover840) !important;
+  }
+  .card-header-desafio, .card-header-agradecimento{
+    display: var(--cardHeaderDisplay)  !important;
+  }
+}
+
+@media (max-width: 780px) {
+  .container{
+    padding-top: var(--containerPaddingTop780) !important;
+  }
+  .card {
+    right: var(--card780right) !important;
+    height: var(--card780height) !important;
+    width: var(--card780width) !important;
+    background-color: #fff;
+    border-radius: var(--cardBorderRadius780) !important;
+    position: var(--positionUnset) !important;
+  }
+  #personagem{
+    height: var(--personagemHeight780) !important;
+    position:var(--positionUnset) !important;
+  }
+  .card-header {
+    border-radius: var(--cardHeaderBorderRadius780) !important;
+    height: var(--cardHeaderHeight780) !important;
+  }
+  #mundo {
+    height: var(--mundoHeight780) !important;
+    width: var(--mundoWidth780) !important;
+  }
+  span {
+    font-weight: var(--fontWeightSpan780) !important;
+  }
+  .areaTexto {
+    font-size: var(--text780) !important;
+    height: var(--areaTextoHeight780) !important;
+  }
+  .areaTextoProblema {
+    font-size: var(--text780) !important;
+    height: var(--areaTextoProblema780) !important;
+    justify-content: space-between !important;
+  }
+
+  .title {
+    font-size: var(--titleFontSize780) !important;
+  }
+  .comoJogar {
+    font-size: var(--fontSizeComoJogar780) !important;
+    margin-top: var(--marginTopComoJogar780) !important;
+    margin-bottom: var(--marginTopComoJogar780) !important;
+  }
+  .areaButton {
+    height: var(--areaButtonHeight780) !important;
+  }
+  .areaButtonProblema {
+    height: var(--areaButtonHeightProblema780) !important;
+  }
+
+  .buttonGo {
+    height: var(--buttonHeight780) !important;
+    font-size: var(--buttonFontSize780) !important;
+    border-radius: var(--buttonBorderRadius780) !important;
+  }
+  .buttonGo:hover {
+    height: var(--buttonHeightHover780) !important;
+  }
+  .card-header-desafio, .card-header-agradecimento{
+    display: var(--cardHeaderDisplay)  !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .container{
+    padding-top: var(--containerPaddingTop560) !important;
+  }
+  .card {
+    right: var(--card560right) !important;
+    height: var(--card560height) !important;
+    width: var(--card560width) !important;
+    background-color: #fff;
+    border-radius: var(--cardBorderRadius560) !important;
+    position: var(--positionUnset) !important;
+  }
+  #personagem{
+    height: var(--personagemHeight560) !important;
+    position:var(--positionUnset) !important;
+  }
+  .card-header {
+    border-radius: var(--cardHeaderBorderRadius560) !important;
+    height: var(--cardHeaderHeight560) !important;
+  }
+  #mundo {
+    height: var(--mundoHeight560) !important;
+    width: var(--mundoWidth560) !important;
+  }
+  span {
+    font-weight: var(--fontWeightSpan560) !important;
+  }
+  .areaTexto {
+    font-size: var(--text560) !important;
+    height: var(--areaTextoHeight560) !important;
+  }
+  .areaTextoProblema {
+    font-size: var(--text560) !important;
+    height: var(--areaTextoProblema560) !important;
+    justify-content: space-between !important;
+  }
+
+  .title {
+    font-size: var(--titleFontSize560) !important;
+  }
+  .comoJogar {
+    font-size: var(--fontSizeComoJogar560) !important;
+    margin-top: var(--marginTopComoJogar560) !important;
+    margin-bottom: var(--marginTopComoJogar560) !important;
+  }
+  .areaButton {
+    height: var(--areaButtonHeight560) !important;
+  }
+  .areaButtonProblema {
+    height: var(--areaButtonHeightProblema560) !important;
+  }
+
+  .buttonGo {
+    height: var(--buttonHeight560) !important;
+    font-size: var(--buttonFontSize560) !important;
+    border-radius: var(--buttonBorderRadius560) !important;
+  }
+  .buttonGo:hover {
+    height: var(--buttonHeightHover560) !important;
+  }
+  .card-header-desafio, .card-header-agradecimento{
+    display: var(--cardHeaderDisplay)  !important;
+  }
+}
+
+@media (max-width: 418px) {
+  .container{
+    padding-top: var(--containerPaddingTop418) !important;
+  }
+  .card {
+    right: var(--card418right) !important;
+    height: var(--card418height) !important;
+    width: var(--card418width) !important;
+    background-color: #fff;
+    border-radius: var(--cardBorderRadius418) !important;
+    position: var(--positionUnset) !important;
+  }
+  #personagem{
+    height: var(--personagemHeight418) !important;
+    position:var(--positionUnset) !important;
+  }
+  .card-header {
+    border-radius: var(--cardHeaderBorderRadius418) !important;
+    height: var(--cardHeaderHeight418) !important;
+  }
+  #mundo {
+    height: var(--mundoHeight418) !important;
+    width: var(--mundoWidth418) !important;
+  }
+  span {
+    font-weight: var(--fontWeightSpan418) !important;
+  }
+  .areaTexto {
+    font-size: var(--text418) !important;
+    height: var(--areaTextoHeight418) !important;
+  }
+  .areaTextoProblema {
+    font-size: var(--text418) !important;
+    height: var(--areaTextoProblema418) !important;
+    justify-content: space-between !important;
+  }
+
+  .title {
+    font-size: var(--titleFontSize418) !important;
+  }
+  .comoJogar {
+    font-size: var(--fontSizeComoJogar418) !important;
+    margin-top: var(--marginTopComoJogar418) !important;
+    margin-bottom: var(--marginTopComoJogar418) !important;
+  }
+  .areaButton {
+    height: var(--areaButtonHeight418) !important;
+  }
+  .areaButtonProblema {
+    height: var(--areaButtonHeightProblema418) !important;
+  }
+
+  .buttonGo {
+    height: var(--buttonHeight418) !important;
+    font-size: var(--buttonFontSize418) !important;
+    border-radius: var(--buttonBorderRadius418) !important;
+  }
+  .buttonGo:hover {
+    height: var(--buttonHeightHover418) !important;
+  }
+  .card-header-desafio, .card-header-agradecimento{
+    display: var(--cardHeaderDisplay)  !important;
+  }
+}
+
+@media (max-width: 413px) {
+  .container{
+    padding-top: var(--containerPaddingTop413) !important;
+  }
+  .card {
+    right: var(--card413right) !important;
+    height: var(--card413height) !important;
+    width: var(--card413width) !important;
+    background-color: #fff;
+    border-radius: var(--cardBorderRadius413) !important;
+    position: var(--positionUnset) !important;
+  }
+  #personagem{
+    height: var(--personagemHeight413) !important;
+    position:var(--positionUnset) !important;
+  }
+  .card-header {
+    border-radius: var(--cardHeaderBorderRadius413) !important;
+    height: var(--cardHeaderHeight413) !important;
+  }
+  #mundo {
+    height: var(--mundoHeight413) !important;
+    width: var(--mundoWidth413) !important;
+  }
+  span {
+    font-weight: var(--fontWeightSpan413) !important;
+  }
+  .areaTexto {
+    font-size: var(--text413) !important;
+    height: var(--areaTextoHeight413) !important;
+  }
+  .areaTextoProblema {
+    font-size: var(--text413) !important;
+    height: var(--areaTextoProblema413) !important;
+    justify-content: space-between !important;
+  }
+
+  .title {
+    font-size: var(--titleFontSize413) !important;
+  }
+  .comoJogar {
+    font-size: var(--fontSizeComoJogar413) !important;
+    margin-top: var(--marginTopComoJogar413) !important;
+    margin-bottom: var(--marginTopComoJogar413) !important;
+  }
+  .areaButton {
+    height: var(--areaButtonHeight413) !important;
+  }
+  .areaButtonProblema {
+    height: var(--areaButtonHeightProblema413) !important;
+  }
+
+  .buttonGo {
+    height: var(--buttonHeight413) !important;
+    font-size: var(--buttonFontSize413) !important;
+    border-radius: var(--buttonBorderRadius413) !important;
+  }
+  .buttonGo:hover {
+    height: var(--buttonHeightHover413) !important;
+  }
+  .card-header-desafio, .card-header-agradecimento{
+    display: var(--cardHeaderDisplay)  !important;
+  }
+}
+
+@media (max-width: 391px) {
+  .container{
+    padding-top: var(--containerPaddingTop391) !important;
+  }
+  .card {
+    right: var(--card391right) !important;
+    height: var(--card391height) !important;
+    bottom: var(--cardBottom);
+    width: var(--card391width) !important;
+    background-color: #fff;
+    border-radius: var(--cardBorderRadius391) !important;
+    position: var(--positionUnset) !important;
+  }
+  #personagem{
+    height: var(--personagemHeight391) !important;
+    position:var(--positionUnset) !important;
+  }
+  .card-header {
+    border-radius: var(--cardHeaderBorderRadius391) !important;
+    height: var(--cardHeaderHeight391) !important;
+    display: var(--cardHeaderDisplay)  !important;
+  }
+  .card-header-desafio, .card-header-agradecimento{
+    display: var(--cardHeaderDisplay)  !important;
+  }
+  #mundo {
+    height: var(--mundoHeight391) !important;
+    width: var(--mundoWidth391) !important;
+  }
+  span {
+    font-weight: var(--fontWeightSpan391) !important;
+  }
+  .areaTexto {
+    font-size: var(--text391) !important;
+    height: var(--areaTextoHeight391) !important;
+  }
+  .areaTextoProblema {
+    font-size: var(--text391) !important;
+    height: var(--areaTextoProblema391) !important;
+  }
+
+  .title {
+    font-size: var(--titleFontSize391) !important;
+  }
+  .comoJogar {
+    font-size: var(--fontSizeComoJogar391) !important;
+    margin-top: var(--marginTopComoJogar391) !important;
+    margin-bottom: var(--marginTopComoJogar391) !important;
+  }
+  .areaButton {
+    height: var(--areaButtonHeight391) !important;
+  }
+  .areaButtonProblema {
+    height: var(--areaButtonHeightProblema391) !important;
+  }
+
+  .buttonGo {
+    height: var(--buttonHeight391) !important;
+    font-size: var(--buttonFontSize391) !important;
+    border-radius: var(--buttonBorderRadius391) !important;
+  }
+  .buttonGo:hover {
+    height: var(--buttonHeightHover391) !important;
+  }
+  .card-header-desafio, .card-header-agradecimento{
+    display: var(--cardHeaderDisplay)  !important;
+  }
+}
+
+@media (max-width: 376px) {
+  .container{
+    padding-top: var(--containerPaddingTop376) !important;
+  }
+  .card {
+    right: var(--card376right) !important;
+    height: var(--card376height) !important;
+    width: var(--card376width) !important;
+    background-color: #fff;
+    border-radius: var(--cardBorderRadius376) !important;
+    position: var(--positionUnset) !important;
+  }
+  .card-header {
+    border-radius: var(--cardHeaderBorderRadius376) !important;
+    height: var(--cardHeaderHeight376) !important;
+  }
+  #personagem{
+    height: var(--personagemHeight376) !important;
+    position:var(--positionUnset) !important;
+  }
+  #mundo {
+    height: var(--mundoHeight376) !important;
+    width: var(--mundoWidth376) !important;
+  }
+  span {
+    font-weight: var(--fontWeightSpan376) !important;
+  }
+  .areaTexto {
+    font-size: var(--text376) !important;
+    height: var(--areaTextoHeight376) !important;
+    
+  }
+  .areaTextoProblema {
+    font-size: var(--text376) !important;
+    height: var(--areaTextoProblema376) !important;
+    justify-content: space-around !important;
+  }
+
+  .title {
+    font-size: var(--titleFontSize376) !important;
+  }
+  .comoJogar {
+    font-size: var(--fontSizeComoJogar376) !important;
+    margin-top: var(--marginTopComoJogar376) !important;
+    margin-bottom: var(--marginTopComoJogar376) !important;
+  }
+  .areaButton {
+    height: var(--areaButtonHeight376) !important;
+  }
+  .areaButtonProblema {
+    height: var(--areaButtonHeightProblema376) !important;
+  }
+
+  .buttonGo {
+    height: var(--buttonHeight376) !important;
+    font-size: var(--buttonFontSize376) !important;
+    border-radius: var(--buttonBorderRadius376) !important;
+  }
+  .buttonGo:hover {
+    height: var(--buttonHeightHover376) !important;
+  }
+  .card-header-desafio, .card-header-agradecimento{
+    display: var(--cardHeaderDisplay)  !important;
+  }
+}
+
+@media (max-width: 365px) {
+  .container{
+    padding-top: var(--containerPaddingTop365) !important;
+  }
+  .card {
+    right: var(--card365right) !important;
+    height: var(--card365height) !important;
+    width: var(--card365width) !important;
+    bottom: var(--cardBottom365) !important;
+    background-color: #fff;
+    border-radius: var(--cardBorderRadius365) !important;
+    position: unset !important;
+  }
+  #personagem{
+    height: var(--personagemHeight365) !important;
+    position: unset !important;
+  }
+  .card-header {
+    border-radius: var(--cardHeaderBorderRadius365) !important;
+    height: var(--cardHeaderHeight365) !important;
+  }
+  #mundo {
+    height: var(--mundoHeight365) !important;
+    width: var(--mundoWidth365) !important;
+  }
+  span {
+    font-weight: var(--fontWeightSpan365) !important;
+  }
+  .areaTexto {
+    font-size: var(--text365) !important;
+    height: var(--areaTextoHeight365) !important;
+  }
+  .areaTextoProblema {
+    font-size: var(--text365) !important;
+    height: var(--areaTextoProblema365) !important;
+  }
+  .title {
+    font-size: var(--titleFontSize365) !important;
+  }
+  .comoJogar {
+    font-size: var(--fontSizeComoJogar365) !important;
+    margin-top: var(--marginTopComoJogar365) !important;
+    margin-bottom: var(--marginTopComoJogar365) !important;
+  }
+  .areaButton {
+    height: var(--areaButtonHeight365) !important;
+  }
+  .areaButtonProblema {
+    height: var(--areaButtonHeightProblema365) !important;
+  }
+
+  .buttonGo {
+    height: var(--buttonHeight365) !important;
+    font-size: var(--buttonFontSize365) !important;
+    border-radius: var(--buttonBorderRadius365) !important;
+  }
+  .buttonGo:hover {
+    height: var(--buttonHeightHover365) !important;
+  }
+  .card-header-desafio, .card-header-agradecimento{
+    display: var(--cardHeaderDisplay)  !important;
+  }
+}
+
+@media (max-width: 350px) {
+  .container{
+    padding-top: var(--containerPaddingTop350) !important;
+  }
+  .card {
+    right: var(--card350right) !important;
+    height: var(--card350height) !important;
+    width: var(--card350width) !important;
+    bottom: var(--cardBottom350) !important;
+    background-color: #fff;
+    border-radius: var(--cardBorderRadius350) !important;
+    position: var(--positionUnset) !important;
+  }
+  #personagem{
+    height: var(--personagemHeight350) !important;
+    position:var(--positionUnset) !important;
+  }
+  .card-header {
+    border-radius: var(--cardHeaderBorderRadius350) !important;
+    height: var(--cardHeaderHeight350) !important;
+  }
+  #mundo {
+    height: var(--mundoHeight350) !important;
+    width: var(--mundoWidth350) !important;
+  }
+  span {
+    font-weight: var(--fontWeightSpan350) !important;
+  }
+  .areaTexto {
+    font-size: var(--text350) !important;
+    height: var(--areaTextoHeight350) !important;
+  }
+  .areaTextoProblema {
+    font-size: var(--text350) !important;
+    height: var(--areaTextoProblema350) !important;
+  }
+  .title {
+    font-size: var(--titleFontSize350) !important;
+  }
+  .comoJogar {
+    font-size: var(--fontSizeComoJogar350) !important;
+    margin-top: var(--marginTopComoJogar350) !important;
+    margin-bottom: var(--marginTopComoJogar350) !important;
+  }
+  .areaButton {
+    height: var(--areaButtonHeight350) !important;
+  }
+  .areaButtonProblema {
+    height: var(--areaButtonHeightProblema350) !important;
+  }
+
+  .buttonGo {
+    height: var(--buttonHeight350) !important;
+    font-size: var(--buttonFontSize350) !important;
+    border-radius: var(--buttonBorderRadius350) !important;
+  }
+  .buttonGo:hover {
+    height: var(--buttonHeightHover350) !important;
+  }
+  .card-header-desafio, .card-header-agradecimento{
+    display: var(--cardHeaderDisplay)  !important;
+  }
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="../assets/logo.svg" type="image/x-icon" />
+  <link rel="stylesheet" href="style/curiosidades.css" />
+  <link rel="stylesheet" href="style/responsividade.css" />
+  <title>Curiosidades</title>
+</head>
+
+<body>
+  <div class="botoes-inicio">
+    <button>
+      <img id="home" src="../../assets/BotaoHome.svg" alt="Voltar tela inicial" data-bs-toggle="tooltip"
+        data-bs-placement="bottom" data-bs-title="Voltar para a tela inicial" draggable="false" />
+    </button>
+
+    <button id="toggleMusicButton">
+      <img id="musicIcon" src="../../assets/icones/som-off.svg" alt="Desativar Som" data-bs-toggle="tooltip"
+        data-bs-placement="bottom" data-bs-title="Desativar Som" draggable="false" />
+    </button>
+  </div>
+  <div id="areaModal">
+    <p>Tem certeza que deseja voltar para a página inicial?</p>
+    <div class="botoes">
+      <button id="confirmYes" class="btn btn-confirm">Sim</button>
+      <button id="confirmNo" class="btn btn-confirm">Não</button>
+    </div>
+  </div>
+
+  <div class="overlay"></div>
+  >
+
+  <div id="modalImages"></div>
+  <div class="section">
+    <div class="name-animal">
+      <h1 id="nome-animal">CAPIVARA</h1>
+    </div>
+    <div class="carrossel">
+      <div class="seta" id="setaEsquerda" onclick="moverCarrossel(-1)">
+        <img src="../assets/icones/seta.svg" alt="" srcset="" />
+      </div>
+      <div class="imagens" id="imagens">
+      </div>
+      <div class="seta" id="setaDireita" onclick="moverCarrossel(1)">
+        <img src="../assets/icones/seta baixo.svg" alt="" srcset="" />
+      </div>
+    </div>
+    <div class="conteudo">
+      <div class="curiosidades">
+        <div class="descricao">
+          <div class="title">
+            <img class="icon" src="../assets/icones/habitat.svg" />
+            <p class="text-habitat">HABITAT</p>
+          </div>
+          <p class="paragrafo" id="habitat-texto"></p>
+        </div>
+        <div class="descricao">
+          <div class="title">
+            <img class="icon" src="../assets/icones/curiosidade.svg" />
+            <p class="text-curiosidade">CURIOSIDADES</p>
+          </div>
+          <p class="paragrafo" id="curiosidades-texto"></p>
+        </div>
+      </div>
+      <div class="img-animal">
+        <img id="imagem-principal" src="../assets/capivara.svg" alt="" />
+      </div>
+    </div>
+    <div class="area-botao">
+      <p>QUE TAL OUVIR O SOM DESSE ANIMAL?</p>
+      <button onclick="OuvirSom()">
+        OUVIR SOM
+        <img class="somAtivo" src="../assets/icones/som ativo.svg" alt="" srcset="" />
+      </button>
+    </div>
+  </div>
+</body>
+<script src="js/curiosidades.js"></script>
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+</html>

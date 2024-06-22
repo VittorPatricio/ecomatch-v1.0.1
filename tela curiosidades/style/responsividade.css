@@ -1,0 +1,859 @@
+:root{
+   /* resolução 1420 */
+    --fontSizeAreaBotao1420:  14px;
+    --descricaoWidth1420: 19rem;
+    --conteudoLeft1420: 15px;
+    --descricaoPadding1420: 20rem;
+    --nome-animalFontSize1420: 3rem;
+    --img-animalImgHeight1420: 16rem;
+    --animalWidth1420: 12rem;
+    --animalHeight1420: 4.7rem;
+    --animalImgWidth1420: 5rem;
+    --areaModalPFont-Size1420: 1.4rem;
+    --curiosidadesWidth1420: 90%;
+    --areaModalBotoesWidth1420: 8rem;
+    --nameAnimalWidth1420: 45%;
+    --img-animalLeft1420: 4rem;
+
+    /* resoluçao 1290 */
+    --fontSizeAreaBotao1290:  14px;
+    --descricaoWidth1290: 15rem;
+    --conteudoLeft1290: 15px;
+    --descricaoPadding1290: 19rem;
+    --nome-animalFontSize1290: 3rem;
+    --img-animalImgHeight1290: 16rem;
+    --animalWidth1290: 11rem;
+    --animalHeight1290: 4.7rem;
+    --areaModalPFont-Size1290: 1.3rem;
+    --areaModalBotoesWidth1290: 8rem;
+    --animalImgWidth1290: 5rem;
+
+
+    /* resoluçao 1030 */
+    --fontSizeAreaBotao1030:  11px;
+    --areaBotaoButton1030: 6rem;
+    --areaBotaoFontButton1030: 11px;
+    --somAtivoWidth1030: 15px;
+    --somAtivoHeight1030: 15px;
+    --descricaoWidth1030: 15rem;
+    --descricaoPFont-Size1030: 13px;
+    --descricaoPWidth1030: 12rem;
+    --iconWidth1030: 35px;
+    --iconHeight1030: 35px;
+    --text-curiosidadeFont1030: 23px;
+    --conteudoLeft1030: 15px;
+    --descricaoPadding1030: 10rem;
+    --nome-animalFontSize1030: 2.4rem;
+    --img-animalImgHeight1030: 14rem;
+    --animalWidth1030: 7.5rem;
+    --animalHeight1030: 4.8rem;
+    --animalImgWidth1030: 4rem;
+    --areaModalPFont-Size1030: 1rem;
+    --areaModalBotoesWidth1030: 7rem;
+    --areaModalBotoesHeight1030: 5rem;
+    --areaModalHeight1030: 45%;
+
+    
+    /* resoluçao 890 */
+    --fontSizeAreaBotao890:  21px;
+    --areaBotaoButton890: 8rem;
+    --areaBotaoFontButton890: 16px;
+    --areaBotaoWidth890: 80%;
+    --areaBotaoHeight890: 7%;
+    --somAtivoWidth890: 20px;
+    --somAtivoHeight890: 20px;
+    --descricaoWidth890: 20rem;
+    --descricaoPFont-Size890: 15px;
+    --descricaoPWidth890: 16rem;
+    --iconWidth890: 35px;
+    --iconHeight890: 35px;
+    --text-curiosidadeFont890: 23px;
+    --conteudoLeft890: 15px;
+    --descricaoPadding890: 20rem;
+    --nome-animalFontSize890: 4rem;
+    --img-animalImgHeight890: 22rem;
+    --img-animalBottom890: 12%;
+    --img-animalLeft890: 26%;
+    --animalWidth890: 7.5rem;
+    --animalHeight890: 4.8rem;
+    --animalImgWidth890: 4rem;
+    --areaModalPFont-Size890: 1.4rem;
+    --sectionWidth890: 90%;
+    --sectionHeight890: 85%;
+    --carroselFlexDirec890: row;
+    --carroselWidth890: 90%;
+    --caroselHeight890: 30%;
+    --carroselBottom890: 0px;
+    --carroselLeft890: 2rem;
+    --imagensCarrosselFlexDirec890: row;
+    --setaEsquerdaRotate890: rotate(-90deg);
+    --setaDireitaRotate890: rotate(90deg);
+    --curiosidadesJustify890: space-around;
+    --curiosidadesGap890: 4rem;
+    --nameAnimalWidth890: 80%;
+    --areaModalPFont-Size890: 1.3rem;
+    --areaModalWidth890: 40rem;
+    --areaModalHeight890: 20rem;
+    --areaModalLeft890: 8rem;
+
+
+   /* resoluçao 840 */
+   --fontSizeAreaBotao840:  21px;
+   --areaBotaoButton840: 8rem;
+   --areaBotaoFontButton840: 16px;
+   --areaBotaoWidth840: 80%;
+   --areaBotaoHeight840: 7%;
+   --somAtivoWidth840: 20px;
+   --somAtivoHeight840: 20px;
+   --descricaoWidth840: 19rem;
+   --descricaoPFont-Size840: 16px;
+   --descricaoPWidth840: 17rem;
+   --iconWidth840: 35px;
+   --iconHeight840: 35px;
+   --text-curiosidadeFont840: 23px;
+   --conteudoLeft840: 15px;
+   --descricaoPadding840: 18rem;
+   --nome-animalFontSize840: 4rem;
+   --img-animalImgHeight840: 22rem;
+   --img-animalBottom840: 12%;
+   --img-animalLeft840: 26%;
+   --animalWidth840: 7rem;
+   --animalHeight840: 5rem;
+   --animalImgWidth840: 4rem;
+   --areaModalPFont-Size840: 1.4rem;
+   --sectionWidth840: 90%;
+   --sectionHeight840: 80%;
+   --carroselFlexDirec840: row;
+   --carroselWidth840: 93%;
+   --caroselHeight840: 30%;
+   --carroselBottom840: 0px;
+   --carroselLeft840: 2rem;
+   --imagensCarrosselFlexDirec840: row;
+   --setaEsquerdaRotate840: rotate(-90deg);
+   --setaDireitaRotate840: rotate(90deg);
+   --curiosidadesJustify840: space-around;
+   --curiosidadesGap840: 3rem;
+   --curiosidadesLeft840: 5rem;
+   --nameAnimalWidth840: 80%;
+   --areaModalHeight840: 20rem;
+   --areaModalPFont-Size840: 1.3rem;
+   --areaModalLeft840: 5rem;
+
+   /* resoluçao 430 */
+   --fontSizeAreaBotao430:  10px;
+   --areaBotaoButton430: 5rem;
+   --areaBotaoFontButton430: 7px;
+   --areaBotaoWidth430: 80%;
+   --areaBotaoHeight430: 7%;
+   --somAtivoWidth430: 10px;
+   --somAtivoHeight430: 10px;
+   --descricaoWidth430: 8rem;
+   --descricaoHeight430: 7rem;
+   --descricaoPFont-Size430: 9px;
+   --descricaoPWidth430: 8rem;
+   --iconWidth430: 25px;
+   --iconHeight430: 25px;
+   --text-curiosidadeFont430: 13px;
+   --conteudoLeft430: 15px;
+   --descricaoPadding430: 9.3rem;
+   --nome-animalFontSize430: 2rem;
+   --img-animalImgHeight430: 13rem;
+   --img-animalBottom430: 12%;
+   --img-animalLeft430: 26%;
+   --animalWidth430: 7.5rem;
+   --animalPadding430: 4px;
+   --animalHeight430: 4rem;
+   --animalImgWidth430: 4rem;
+   --areaModalPFont-Size430: 1.4rem;
+   --sectionWidth430: 90%;
+   --sectionHeight430: 85%;
+   --carroselFlexDirec430: row;
+   --carroselWidth430: 95%;
+   --caroselHeight430: 30%;
+   --carroselBottom430: 0px;
+   --carroselLeft430: 1rem;
+   --imagensCarrosselFlexDirec430: row;
+   --setaEsquerdaRotate430: rotate(-90deg);
+   --setaDireitaRotate430: rotate(90deg);
+   --curiosidadesJustify430: space-around;
+   --curiosidadesGap430: 1rem;
+   --curiosidadesLeft430: 5rem;
+   --nameAnimalWidth430: 80%;
+   --setaHeight430: 1rem;
+   --areaModalWidth430: 23rem;
+   --areaModalHeight430: 20rem;
+   --areaModalPFont-Size430: 1.2rem;
+   --areaModalBotoesWidth430: 7rem;
+   --areaModalBotoesHeight430: 4rem;
+}
+
+@media (max-width: 1420px){
+ .area-botao{
+    font-size: var(--fontSizeAreaBotao1420) !important;
+ }
+
+ .descricao{
+    width: var(--descricaoWidth1420) !important;
+    padding-right: var(--descricaoPadding1420) !important;
+ }
+
+ .conteudo{
+    left: var(--conteudoLeft1420) !important;
+    width: 80%;
+    height: 30%;
+ }
+
+ .name-animal{
+   width: var(--nameAnimalWidth1420) !important;
+ }
+
+ #nome-animal{
+    font-size: var(--nome-animalFontSize1420) !important;
+    
+ }
+
+ .img-animal{
+   left: var(--img-animalLeft1420) !important;
+ }
+
+.img-animal img{
+    height: var(--img-animalImgHeight1420) !important;
+ }
+
+ .animal{
+    width: var(--animalWidth1420) !important;
+    height: var(--animalHeight1420) !important;
+ }
+ .animal img{
+    width: var(--animalImgWidth1420) !important;
+ }
+ 
+ #areaModal > .botoes > .btn{
+   width: var(--areaModalBotoesWidth1420) !important;
+ }
+
+ #areaModal > p{
+    font-size: var(--areaModalPFont-Size1420) !important;
+ }
+
+ .curiosidades{
+   width: var(--curiosidadesWidth1420) !important;
+ }
+
+}
+
+@media (max-width: 1290px){
+   .area-botao{
+      font-size: var(--fontSizeAreaBotao1290) !important;
+   }
+
+  
+   .descricao{
+      width: var(--descricaoWidth1290) !important;
+      padding-right: var(--descricaoPadding1290) !important;
+   }
+  
+   .conteudo{
+      left: var(--conteudoLeft1290) !important;
+   }
+  
+   #nome-animal{
+      font-size: var(--nome-animalFontSize1290) !important;
+      
+   }
+  
+  .img-animal img{
+      height: var(--img-animalImgHeight1290) !important;
+   }
+  
+   .animal{
+      width: var(--animalWidth1290) !important;
+      height: var(--animalHeight1290) !important;
+   }
+   .animal img{
+      width: var(--animalImgWidth1290) !important;
+   }
+   
+   #areaModal > .botoes > .btn{
+      width: var(--areaModalBotoesWidth1290) !important;
+    }
+   #areaModal > p{
+      font-size: var(--areaModalPFont-Size1290) !important;
+   }
+  
+}
+
+@media (max-width: 1030px){
+   .area-botao{
+      font-size: var(--fontSizeAreaBotao1030) !important;
+   }
+
+   .area-botao button{
+      width: var(--areaBotaoButton1030) !important;
+      font-size: var(--areaBotaoFontButton1030) !important;
+   }
+
+   .botoes-inicio{
+      width: 8rem !important;
+   }
+
+   #musicIcon, #home{
+      height: 3rem !important;
+   }
+  
+   .somAtivo{
+      width: var(--somAtivoWidth1030) !important;
+      height: var(--somAtivoHeight1030) !important;
+   }
+   .descricao{
+      width: var(--descricaoWidth1030) !important;
+      padding-right: var(--descricaoPadding1030) !important;
+   }
+
+   .descricao > p{
+      font-size: var(--descricaoPFont-Size1030) !important;
+      width: var(--descricaoPWidth1030) !important;
+   }
+
+   .icon{
+      width: var(--iconWidth1030) !important;
+      height: var(--iconHeight1030) !important;
+   }
+
+   .text-curiosidade{
+      font-size: var(--text-curiosidadeFont1030) !important;
+   }
+  
+   .conteudo{
+      left: var(--conteudoLeft1030) !important;
+   }
+  
+   #nome-animal{
+      font-size: var(--nome-animalFontSize1030) !important;
+      
+   }
+  
+  .img-animal img{
+      height: var(--img-animalImgHeight1030) !important;
+   }
+  
+   .animal{
+      width: var(--animalWidth1030) !important;
+      height: var(--animalHeight1030) !important;
+   }
+   .animal img{
+      width: var(--animalImgWidth1030) !important;
+   }
+
+   #areaModal{
+      height: var(--areaModalHeight1030) !important;
+   }
+
+   #areaModal > .botoes > .btn{
+      width: var(--areaModalBotoesWidth1030) !important;
+      height: var(--areaModalBotoesHeight1030);
+      font-size: 2rem;
+    }
+   
+   #areaModal > p{
+      font-size: var(--areaModalPFont-Size1030) !important;
+   }
+}
+
+@media(max-width: 890px){
+   .area-botao{
+      font-size: var(--fontSizeAreaBotao890) !important;
+      width: var(--areaBotaoWidth890) !important;
+      height: var(--areaBotaoHeight890) !important;
+   }
+
+   .area-botao button{
+      width: var(--areaBotaoButton890) !important;
+      font-size: var(--areaBotaoFontButton890) !important;
+   }
+
+   .botoes-inicio{
+      width: 8rem !important;
+      left: 3rem !important;
+   }
+
+   #musicIcon, #home{
+      height: 3rem !important;
+   }
+  
+   .somAtivo{
+      width: var(--somAtivoWidth890) !important;
+      height: var(--somAtivoHeight890) !important;
+   }
+   .descricao{
+      width: var(--descricaoWidth890) !important;
+      padding-right: var(--descricaoPadding890) !important;
+   }
+
+   .descricao > p{
+      font-size: var(--descricaoPFont-Size890) !important;
+      width: var(--descricaoPWidth890) !important;
+   }
+
+   .icon{
+      width: var(--iconWidth890) !important;
+      height: var(--iconHeight890) !important;
+   }
+
+   .text-curiosidade{
+      font-size: var(--text-curiosidadeFont890) !important;
+   }
+  
+   .conteudo{
+      left: var(--conteudoLeft890) !important;
+      width: 80%;
+      height: 70%;
+   }
+  
+   #nome-animal{
+      font-size: var(--nome-animalFontSize890) !important;
+      
+   }
+  
+   .img-animal{
+      bottom: var(--img-animalBottom890) !important;
+      left: var(--img-animalLeft890) !important;
+   }
+
+  .img-animal img{
+      height: var(--img-animalImgHeight890) !important;
+   }
+  
+   .animal{
+      width: var(--animalWidth890) !important;
+      height: var(--animalHeight890) !important;
+   }
+   .animal img{
+      width: var(--animalImgWidth890) !important;
+   }
+   
+   #areaModal{
+      width: var(--areaModalWidth890) !important;
+      height: var(--areaModalHeight890) !important;
+      left: var(--areaModalLeft890) !important;
+   }
+
+   #areaModal > p{
+      font-size: var(--areaModalPFont-Size890) !important;
+   }
+
+   .section{
+      width: var(--sectionWidth890) !important;
+      height: var(--sectionHeight890) !important;
+   }
+
+   .carrossel{
+      flex-direction: var(--carroselFlexDirec890) !important;
+      width: var(--carroselWidth890) !important;
+      height: var(--caroselHeight890) !important; 
+      bottom: var(--carroselBottom890) !important;
+      left: var(--carroselLeft890) !important;
+   }
+
+   .imagens{
+      flex-direction: var(--imagensCarrosselFlexDirec890) !important;
+   }
+
+   #setaEsquerda{
+      transform: var(--setaEsquerdaRotate890) !important;
+   }
+   #setaDireita{
+      transform: var(--setaEsquerdaRotate890) !important;
+   }
+
+   .curiosidades{
+      justify-content: var(--curiosidadesJustify890) !important;
+      gap: var(--curiosidadesGap890) !important;
+   }
+
+   .name-animal{
+     width: var(--nameAnimalWidth890) !important;
+   }
+
+}
+
+@media(max-width: 840px){
+   .area-botao{
+      font-size: var(--fontSizeAreaBotao840) !important;
+      width: var(--areaBotaoWidth840) !important;
+      height: var(--areaBotaoHeight840) !important;
+   }
+
+   .area-botao button{
+      width: var(--areaBotaoButton840) !important;
+      font-size: var(--areaBotaoFontButton840) !important;
+   }
+
+   .botoes-inicio{
+      width: 8rem !important;
+      top: 2rem !important;
+      left: 3rem !important;
+   }
+
+   #musicIcon, #home{
+      height: 3rem !important;
+   }
+  
+   .somAtivo{
+      width: var(--somAtivoWidth840) !important;
+      height: var(--somAtivoHeight840) !important;
+   }
+   .descricao{
+      width: var(--descricaoWidth840) !important;
+      padding-right: var(--descricaoPadding840) !important;
+   }
+
+   .descricao > p{
+      font-size: var(--descricaoPFont-Size840) !important;
+      width: var(--descricaoPWidth840) !important;
+   }
+
+   .icon{
+      width: var(--iconWidth840) !important;
+      height: var(--iconHeight840) !important;
+   }
+
+   .text-curiosidade{
+      font-size: var(--text-curiosidadeFont840) !important;
+   }
+  
+   .conteudo{
+      left: var(--conteudoLeft840) !important;
+      width: 80%;
+      height: 70%;
+   }
+  
+   #nome-animal{
+      font-size: var(--nome-animalFontSize840) !important;
+      
+   }
+  
+   .img-animal{
+      bottom: var(--img-animalBottom840) !important;
+      left: var(--img-animalLeft840) !important;
+   }
+
+  .img-animal img{
+      height: var(--img-animalImgHeight840) !important;
+   }
+  
+   .animal{
+      width: var(--animalWidth840) !important;
+      height: var(--animalHeight840) !important;
+      padding: var(--animalPadding430) !important;
+   }
+   .animal img{
+      width: var(--animalImgWidth840) !important;
+   }
+   
+   #areaModal{
+      height: var(--areaModalHeight840) !important;
+      left: var(--areaModalLeft840) !important;
+   }
+
+   #areaModal > p{
+      font-size: var(--areaModalPFont-Size840) !important;
+   }
+
+   .section{
+      width: var(--sectionWidth840) !important;
+      height: var(--sectionHeight840) !important;
+   }
+
+   .carrossel{
+      flex-direction: var(--carroselFlexDirec840) !important;
+      width: var(--carroselWidth840) !important;
+      height: var(--caroselHeight840) !important; 
+      bottom: var(--carroselBottom840) !important;
+      left: var(--carroselLeft840) !important;
+   }
+
+   .imagens{
+      flex-direction: var(--imagensCarrosselFlexDirec840) !important;
+   }
+
+   #setaEsquerda{
+      transform: var(--setaEsquerdaRotate840) !important;
+   }
+   #setaDireita{
+      transform: var(--setaEsquerdaRotate840) !important;
+   }
+
+   .curiosidades{
+      justify-content: var(--curiosidadesJustify840) !important;
+      gap: var(--curiosidadesGap840) !important;
+      left: var(--curiosidadesLeft840) !important;
+   }
+
+   .name-animal{
+     width: var(--nameAnimalWidth840) !important;
+   }
+}
+
+@media (max-width: 835px){
+   .descricao{
+      width: 20rem !important;
+   }
+}
+
+@media (max-width: 820px){
+   .descricao{
+      width: 19.5rem !important;
+   }
+}
+
+@media (max-width: 800px){
+   .descricao{
+      width: 19rem !important;
+   }
+}
+
+@media (max-width: 770px){
+   .descricao{
+      width: 14rem !important;
+      padding-right: 18rem !important;
+   }
+
+   .img-animal img{
+      height: 17rem !important;
+   }
+
+   .descricao > p{
+      font-size: 14px !important;
+      width: 16rem!important;
+   }
+
+   #areaModal{
+      left: 4rem !important;
+   }
+}
+
+@media (max-width: 430px){
+   .area-botao{
+      font-size: var(--fontSizeAreaBotao430) !important;
+      width: var(--areaBotaoWidth430) !important;
+      height: var(--areaBotaoHeight430) !important;
+   }
+
+   .area-botao button{
+      width: var(--areaBotaoButton430) !important;
+      font-size: var(--areaBotaoFontButton430) !important;
+   }
+
+   .botoes-inicio{
+      width: 8rem !important;
+      top: 0rem !important;
+      left: 1rem !important;
+   }
+
+   #musicIcon, #home{
+      height: 3rem !important;
+   }
+  
+   .somAtivo{
+      width: var(--somAtivoWidth430) !important;
+      height: var(--somAtivoHeight430) !important;
+   }
+   .descricao{
+      width: var(--descricaoWidth430) !important;
+      padding-right: var(--descricaoPadding430) !important;
+      height: var(--descricaoHeight430) !important;
+   }
+
+   .descricao > p{
+      font-size: var(--descricaoPFont-Size430) !important;
+      width: var(--descricaoPWidth430) !important;
+   }
+
+   .icon{
+      width: var(--iconWidth430) !important;
+      height: var(--iconHeight430) !important;
+   }
+
+   .text-curiosidade, .text-habitat{
+      font-size: var(--text-curiosidadeFont430) !important;
+   }
+  
+   .conteudo{
+      left: var(--conteudoLeft430) !important;
+      width: 80%;
+      height: 70%;
+   }
+  
+   #nome-animal{
+      font-size: var(--nome-animalFontSize430) !important;
+      
+   }
+  
+   .img-animal{
+      bottom: var(--img-animalBottom430) !important;
+      left: var(--img-animalLeft430) !important;
+   }
+
+  .img-animal img{
+      height: var(--img-animalImgHeight430) !important;
+   }
+  
+   .animal{
+      width: var(--animalWidth430) !important;
+      height: var(--animalHeight430) !important;
+   }
+   .animal img{
+      width: var(--animalImgWidth430) !important;
+   }
+
+   .section{
+      width: var(--sectionWidth430) !important;
+      height: var(--sectionHeight430) !important;
+   }
+
+   .carrossel{
+      flex-direction: var(--carroselFlexDirec430) !important;
+      width: var(--carroselWidth430) !important;
+      height: var(--caroselHeight430) !important; 
+      bottom: var(--carroselBottom430) !important;
+      left: var(--carroselLeft430) !important;
+   }
+
+   .imagens{
+      flex-direction: var(--imagensCarrosselFlexDirec430) !important;
+   }
+
+   .seta img{
+      height: var(--setaHeight430) !important;
+   }
+
+   #setaEsquerda{
+      transform: var(--setaEsquerdaRotate430) !important;
+   }
+   #setaDireita{
+      transform: var(--setaEsquerdaRotate430) !important;
+   }
+
+   #areaModal{
+      width: var(--areaModalWidth430) !important;
+      height: var(--areaModalHeight430) !important;
+      left: var(--areaModalLeft430) !important;
+   }
+
+   #areaModal > p{
+      font-size: var(--areaModalPFont-Size430) !important;
+      text-align: center;
+   }
+
+   #areaModal > .botoes > .btn {
+      width: var(--areaModalBotoesWidth430) !important;
+      height: var(--areaModalBotoesHeight430);
+      font-size: 2rem;
+  }
+
+  .curiosidades{
+   justify-content: var(--curiosidadesJustify430) !important;
+   gap: var(--curiosidadesGap430) !important;
+   left: var(--curiosidadesLeft430) !important;
+   }
+
+   .name-animal{
+   width: var(--nameAnimalWidth430) !important;
+   }
+
+}
+
+
+@media (max-width: 416px){
+   .area-botao{
+      font-size: 8px !important;
+   }
+
+   .descricao{
+      width: 7rem !important;
+      padding-right: 8.4rem !important;
+      height: 7rem !important;
+   }
+
+   .descricao > p{
+      font-size: 8px !important;
+      width: 7rem !important;
+   }
+
+   .icon{
+      width: 18px !important;
+      height: 18px !important;
+   }
+
+   .text-curiosidade, .text-habitat{
+      font-size: 11px !important;
+   }
+
+   .animal{
+      width: 4rem !important;
+      height: 4rem !important;
+   }
+   .animal img{
+      width: 3rem !important;
+   }
+
+   #areaModal{
+      width: 20rem !important;
+      height: 18rem !important;
+   }
+
+   #areaModal > p{
+      font-size: 1.3rem !important;
+      text-align: center;
+   }
+
+   #areaModal > .botoes > .btn {
+      width: 6rem !important;
+      height: 4rem !important;
+      font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 375px){
+   .descricao {
+      width: 6rem !important;
+      padding-right: 7.8rem !important;
+      height: 7rem !important;
+   }
+
+   .descricao > p {
+      font-size: 8px !important;
+      width: 6rem !important;
+  }
+}
+
+@media (max-width: 360px) {
+   .descricao {
+      width: 5rem !important;
+      padding-right: 7.2rem !important;
+      height: 7rem !important;
+  }
+
+  .descricao > p {
+   font-size: 8px !important;
+   width: 5.5rem !important;
+  }
+
+  #nome-animal {
+   font-size: 1.8rem !important;
+  }
+
+  .text-curiosidade, .text-habitat {
+   font-size: 9px !important;
+}
+   .carrossel {
+      width: 98% !important;
+      height: var(--caroselHeight430) !important;
+      left: 0.5rem !important;
+   }
+
+   .area-botao button{
+      width: 4.5rem !important;
+   }
+}
