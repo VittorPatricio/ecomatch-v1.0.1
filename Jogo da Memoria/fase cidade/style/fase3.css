@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+
+@import url('../../responsividade.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Concert One", sans-serif;
+  user-select: none;
+}
+
+#body {
+  background-color: #d9f1fd;
+  background-image: url("../assets/fundo/fundo-cidade.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  user-select: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 20px 30px;
+  background-color: #ffd157;
+  border: 4px solid #fe9929;
+  color: white;
+  font-weight: bolder;
+  -webkit-text-stroke-width: 0.035rem;
+  -webkit-text-stroke-color: #4c1d05;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 12%;
+  border-radius: 15%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  height: 100% !important;
+  max-width: 800px;
+  place-items: center;
+  gap: 0.5%;
+  user-select: none;
+  
+}
+
+.grid > .card {
+  aspect-ratio: 3/4;
+  background-color: #be7412;
+  border-radius: 5px;
+  position: relative;
+  transition: all 500ms ease;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  border-radius: 7px;
+  border: none;
+}
+
+.botao-inicial {
+  position: fixed;
+  z-index: 600;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  top: 13%;
+  left: 3%;
+  width: 6%;
+  height: 4%;
+}
+
+#imagem,
+#imagem2 {
+  transition: all 500ms ease;
+  width: 4rem;
+  height: 4rem;
+}
+
+#imagem:hover,
+#imagem2:hover {
+  transform: scale(1.2);
+}
+
+.face {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid #be7412;
+  border-radius: 7px;
+  filter: drop-shadow(0px 5px 3px rgba(140, 128, 128, 0.25));
+  transition: all 800ms ease;
+}
+
+.front {
+  transform: rotateY(180deg);
+}
+
+.back {
+  background-image: url("../assets/carta/carta-cidade.svg");
+  backface-visibility: hidden;
+  user-select: none;
+}
+
+.reveal-card {
+  transform: rotateY(180deg);
+}
+
+.disabled-card {
+  filter: saturate(0);
+  opacity: 0.5;
+}
+
+.modal-finalizacao {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(225, 132, 56, 0.651);
+  z-index: 1000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-menor-finalizacao {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  animation: fadeIn 1s;
+  word-spacing: 0.5rem;
+  margin: 0;
+  display: none;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 50%;
+  height: 45%;
+}
+
+.modal-menor-finalizacao > p {
+  margin: 0;
+  color: #4c1d05;
+  font-weight: bold;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  width: 80%;
+}
+
+.spinner {
+  border: 6px solid #f48b61;
+  border-top: 6px solid #833c21;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+  width: 60px;
+  height: 60px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.fundo-inicio {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(225, 132, 56, 0.651);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto-fase-inicio {
+  background: rgb(163, 73, 0);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  animation: fadeIn 1s;
+  word-spacing: 1rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 20%;
+}
+
+.texto-fase-inicio > p {
+  margin: 0;
+  color: #f8ffe6;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.texto-fase-inicio {
+  display: none;
+}
+
+#body.loading .texto-fase-inicio {
+  display: flex;
+}
+.modal2 {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(11, 82, 4, 0.5);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content2 {
+  color: #4c1d05;
+  background-color: #fefefe;
+  padding: 1.5rem 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-size: 3rem;
+  z-index: 3;
+  animation: fadeIn 1s;
+  word-spacing: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.modal-content2 p {
+  color: #4c1d05;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.botoes {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#confirmYes,
+#confirmNo {
+  color: #4c1d05;
+  animation: textclip 3s linear infinite;
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 1s;
+  border-radius: 0.8rem;
+  text-transform: uppercase;
+  background: transparent;
+  border-color: #4c1d05;
+  border-style: solid;
+  border-width: 4px;
+}
+
+#confirmYes:hover,
+#confirmNo:hover {
+  color: #fff;
+  background-clip: border-box;
+  background-size: 100% auto;
+}
+
+#confirmYes:hover {
+  background-color: #d94545;
+}
+
+#confirmNo:hover {
+  background-color: #114f0f;
+}
+
+@media (max-width: 2580px) {
+  #body {
+    padding: 4% 0% 2% 0%;
+    background-position: bottom;
+    background-position-y: 80%;
+  }
+  header {
+    top: 4.5%;
+    right: auto;
+    padding: 2% 2%;
+    font-size: 1.5rem;
+    border-radius: 12px;
+    height: 8%;
+    width: 50%;
+    align-items: center;
+    place-items: center;
+    font-size: 2rem;
+  }
+  .grid {
+    margin-top: 2%;
+    height: 80%;
+    gap: 0.5%;
+  }
+  .card {
+    width: 85%;
+    height: 95%;
+  }
+
+  .modal-content2 {
+    width: 62%;
+    height: 30%;
+  }
+
+  .modal-content2 p {
+    font-size: 2rem;
+  }
+
+  #confirmYes,
+  #confirmNo {
+    font-size: 1.8rem;
+    padding: 0.25rem 1.5rem;
+
+  }
+  .botoes {
+    width: 60%;
+    height: auto;
+  }
+  .botao-inicial {
+    top: 4%;
+    left: 3%;
+    width: 7%;
+    height: 12%;
+  }
+  #imagem,
+  #imagem2 {
+    width: 80%;
+    height: 80%;
+  }
+}

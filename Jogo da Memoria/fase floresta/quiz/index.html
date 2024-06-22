@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../../../assets/logo.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Ecomatch</title>
+  </head>
+
+  <body>
+    <div class="botoes-inicio">
+      <button>
+        <img
+          id="home"
+          src="../../../assets/BotaoHome.svg"
+          alt="Voltar tela inicial"
+          data-bs-toggle="tooltip"
+          data-bs-placement="bottom"
+          data-bs-title="Voltar para a tela inicial"
+          draggable="false" 
+        />
+      </button>
+
+      <button id="toggleMusicButton">
+        <img
+          id="sound"
+          src="../../../assets/icones/som-off.svg";
+          alt="Desativar Som"
+          data-bs-toggle="tooltip"
+          data-bs-placement="bottom"
+          data-bs-title="Desativar Som"
+          draggable="false" 
+        />
+      </button>
+    </div>
+
+    <div id="areaModal" class="modal">
+      <p>Tem certeza que deseja voltar para a página inicial?</p>
+      <div class="botoes">
+        <button id="confirmYes" class="btn">Sim</button>
+        <button id="confirmNo" class="btn">Não</button>
+      </div>
+    </div>
+
+    <div class="overlay"></div>
+
+    <div class="modal-finalizacao" id="modal-finalizacao">
+      <div class="estrelas">
+        <img id="estrela1" src="./assets/estrela1.svg" alt="" draggable="false"  /> 
+        <img  id="estrela2" src="./assets/estrela2.svg" alt="" draggable="false"  />
+        <img  id="estrela3" src="./assets/estrela3.svg" alt="" draggable="false"  />
+      </div>
+      <div class="acertos">
+        <p>TOTAL DE ACERTOS QUIZ: </p>
+
+        <span class="perguntas"></span>
+      </div>
+      <div class="temporizador">
+        <p>TEMPO JOGO FASE FLORESTA: </p>
+
+        <span class="tempo"></span>
+      </div>
+      <p>CARREGANDO PRÓXIMA FASE</p>
+      <div class="spinner"></div>
+    </div>
+
+    <main class="container">
+      <div class="imagem">
+        <img src="" alt="" draggable="false" />
+      </div>
+      <div class="quiz">
+        <h1><span>1/5</span> O QUE VOCÊ VÊ NESSA IMAGEM?</h1>
+        <p><span>A</span> CAPIVARA</p>
+        <p class="folha-b"><span>B</span>CACHORRO</p>
+        <p class="folha-c"><span>C</span>CAPIXABA</p>
+        <p class="folha-d"><span>D</span>CAPITUVAL</p>
+      </div>
+    </main>
+
+    
+    <audio id="matchSound" src="../../../audios/correct.mp3"></audio>
+    <audio id="matchSound2" src="../../../audios/errado.wav"></audio>
+    
+    <script src="quiz.js"></script>
+ 
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+</body>
+
+
+</html>
